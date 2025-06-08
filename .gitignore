@@ -1,0 +1,11 @@
+/backup/*
+/cache/*
+# /content/*
+/content/data/*
+/content/*/blog/*/draft/*
+/content/*/blog/*/*/scheduled/*
+/config/config.ini
+/config/users/*.ini
+/backup
+/.htaccess
+.DS_Store
