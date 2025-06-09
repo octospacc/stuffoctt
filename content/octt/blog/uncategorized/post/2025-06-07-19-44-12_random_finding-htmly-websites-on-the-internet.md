@@ -18,8 +18,9 @@ Now, often those can come in any variety, but for HTMLy (and limiting my search 
 
 Additionally, there are quite a few default strings in the program that end up being visible in public pages, if the user doesn't change them. I'm obviously referring to things like the site's tagline and users' biography, which everyone knows about at least indirectly. Just like many WhatsApp users still have the default status of "_Hey there! I am using WhatsApp_" after more than a decade, and a lot of clueless WordPress admins in the past never changed that dreaded "_Just another WordPress site._", HTMLy offers these:
 
-* "`Just another HTMLy blog`"
-* "`Just another HTMLy user`" (I'm personally guilty of this, as of editing this article...)
+* Site tagline: "`Just another HTMLy blog`"
+* User description: "`Just another HTMLy user`" (I'm personally guilty of this, as of editing this article...)
+* Site description: "`Proudly powered by HTMLy, a databaseless blogging platform.`"
 
 ## Advanced Search Techniques and Services
 

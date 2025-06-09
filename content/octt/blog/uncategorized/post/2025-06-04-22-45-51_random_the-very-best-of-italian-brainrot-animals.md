@@ -16,6 +16,8 @@ Here's a list of the best animals of italian brainrot — or italian animals of 
 
 ![](https://static.wikitide.net/italianbrainrotwiki/f/fa/Tung_tung_tung_sahur.png)
 
+![IL DESTINO DELLA PATRIA, DEL POPOLO E DEI PROLETARI SI REALIZZA NELLA RESISTENZA DELL'ARMATA RIVOLUZIONARIA GUIDATA DALLO STIMATO COMPAGNO SAHUR](https://stuff.octt.eu.org/content/images/20250609200023-photo_2025-06-09_19-59-34.jpg)
+
 ## Brr Brr Patapim 🌴
 
 > Brr, brr, Patapim, il mio cappello è pieno di Slim!
