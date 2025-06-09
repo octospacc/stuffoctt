@@ -1,4 +1,4 @@
-<!--t &quot;100 Reasons You Should Play Minecraft Bedrock Edition in 2024&quot;, by EvidentP t-->
+<!--t 100 Reasons You Should Play Minecraft Bedrock Edition in 2024, by EvidentP t-->
 <!--d The Hive: a really nice server, made for Bedrock Edition specifically and well-polished Hive&#039;s Top Snow: on The Hive, it&#039;s possible to d-->
 <!--tag Random tag-->
 <!--video https://www.youtube.com/watch?v=HGCddEOVmHo video-->
@@ -47,7 +47,7 @@ So, here are [**100 Reasons You Should Play Minecraft Bedrock Edition**](https:/
 
 20. **Portal Glitch**
 
-21. **Dye Cauldron Water**
+21. **Dye Cauldron Water**: water in cauldrons can be mixed with dye, and the newly dyed water used to dye items.
 
 22. **Tipped Arrows**
 
@@ -95,13 +95,13 @@ So, here are [**100 Reasons You Should Play Minecraft Bedrock Edition**](https:/
 
 44. **Down Bridging**
 
-45. **Stacking Cakes**
+45. **Stacking Cakes**: cakes are stackable items, unlike on Java for some reason.
 
 46. **Baby Zombies Ride Stuff**
 
 47. **Punching Enchant Tables**
 
-48. **Less Grass**
+48. **Less Grass** is put in place by world generation.
 
 49. **Pistons Pull Chests**
 
@@ -111,11 +111,11 @@ So, here are [**100 Reasons You Should Play Minecraft Bedrock Edition**](https:/
 
 52. **Fire Snowballs**
 
-53. **Dispenser Trident**
+53. **Dispenser Trident**: dispensers can shoot tridents, just like they have always been able to do with arrows.
 
-54. **Creative Gliding** is absent
+54. **Creative Gliding** is absent.
 
-55. **Shearing Dyed Sheep**
+55. **Shearing Dyed Sheep**: when shearing dyed sheeps, some pixels of wool are still visible on their bodies, allowing for them to be recognized by color even before they regrow.
 
 56. **Minecart Boats**: minecarts can work as boats, floating and going forward if on water with soul sand below.
 
@@ -185,7 +185,7 @@ So, here are [**100 Reasons You Should Play Minecraft Bedrock Edition**](https:/
 
 89. **Server Description**
 
-90. **PvP**
+90. **PvP** is the classic one from before Minecraft Java 1.9, which is universally considered the better version.
 
 91. **Free Alt Accounts**
 

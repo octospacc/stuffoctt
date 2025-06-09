@@ -14,7 +14,7 @@
 
 			<?php if (!empty($p->video)):?>
 			<div class="video-container">
-				 <iframe width="100%" height="315px" class="embed-responsive-item" src="https://www.youtube.com/embed/<?php echo get_video_id($p->video); ?>" frameborder="0" allowfullscreen></iframe>
+				 <iframe width="100%" height="315px" class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/<?php echo get_video_id($p->video); ?>" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<?php endif;?>
 

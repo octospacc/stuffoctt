@@ -4,7 +4,7 @@
 /content/data/*
 /content/*/blog/*/draft/*
 /content/*/blog/*/*/scheduled/*
-/config/config.ini
+# /config/config.ini
 /config/users/*.ini
 /backup
 /.htaccess
