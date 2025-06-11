@@ -10,6 +10,7 @@
 <script type="text/javascript" src="<?php echo theme_path();?>js/jquery.js" id="jquery-core-js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
+<script src="<?php echo theme_path()?>js/sitoctt-utils.js"></script>
 </head>
 
 <body class="home blog col-2cl <?php if (!is_index()):?>single<?php endif;?>">

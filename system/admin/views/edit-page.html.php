@@ -171,7 +171,7 @@ if ($type == 'is_page' || $type == 'is_frontpage') {
                 <div class="col-sm-6" id="editor-col">
                     <label for="wmd-input"><?php echo i18n('Content');?> <span class="required">*</span></label>
                     <div id="wmd-button-bar" class="wmd-button-bar"></div>
-                    <textarea id="wmd-input" class="form-control wmd-input <?php if (isset($postContent)) {if (empty($postContent)) {echo 'error';}} ?>" name="content" cols="20" rows="10"><?php echo $oldcontent ?></textarea>
+                    <textarea id="wmd-input" class="form-control wmd-input <?php if (isset($postContent)) {if (empty($postContent)) {echo 'error';}} ?>" name="content" cols="20" rows="10"><?php echo htmlspecialchars($oldcontent) ?></textarea>
                     <br>
                     <?php if(!empty($fields) && $type != 'is_category'):?>
                     <details id="custom-fields"  >

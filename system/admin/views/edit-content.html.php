@@ -248,7 +248,7 @@ $( function() {
                         <input type="hidden" id="pType" name="posttype" value="<?php echo $type; ?>">
                         <label for="wmd-input"><?php echo i18n('Content');?> <span class="required">*</span></label>
                         <div id="wmd-button-bar" class="wmd-button-bar"></div>
-                        <textarea id="wmd-input" class="form-control wmd-input <?php if (isset($postContent)) { if (empty($postContent)) { echo 'error'; } } ?>" name="content" cols="20" rows="15"><?php echo $oldcontent ?></textarea>
+                        <textarea id="wmd-input" class="form-control wmd-input <?php if (isset($postContent)) { if (empty($postContent)) { echo 'error'; } } ?>" name="content" cols="20" rows="15"><?php echo htmlspecialchars($oldcontent) ?></textarea>
                         <br>
 
                         <?php if(!empty($fields)):?>
