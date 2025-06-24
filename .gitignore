@@ -4,6 +4,8 @@
 /content/data/*
 /content/*/blog/*/draft/*
 /content/*/blog/*/*/scheduled/*
+/content/static/draft/*
+/content/static/*/draft/*
 # /config/config.ini
 /config/users/*.ini
 /backup

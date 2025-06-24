@@ -15,8 +15,7 @@
 			</div><!--/.entry-->
 		</div>
 
-		<div class="entry-footer group">
-
+<div class="entry-footer group">
 <?php if (isset($is_page)):?>
 <div class="masonry">
         <?php $subpages = find_subpage($static->slug);?>
@@ -37,7 +36,9 @@
         <?php endif;?>
 </div>
 <?php endif;?>
-		
+</div>
+
+		<div class="entry-footer group">		
 			<ul class="post-nav group">
 			<?php if (!empty($prev)): ?>
 				<li class="next"><a href="<?php echo($prev['url']); ?>" rel="next"><i class="fas fa-chevron-right"></i><strong><?php echo i18n('Next');?></strong> <span><?php echo($prev['title']); ?></span></a></li>

@@ -27,15 +27,15 @@
 
 			<?php if (!empty($p->link)) {?>
 			<h2 class="entry-title">
-				<a href="<?php echo $p->link;?>" target="_blank" rel="bookmark"><?php echo $p->title;?> <i class="fas fa-external-link-alt"></i></a>
+				<a href="<?php echo $p->link;?>" target="_blank"><?php echo $p->title;?> <i class="fas fa-external-link-alt"></i></a>
 			</h2><!--/.entry-title-->
 			<?php } elseif (!empty($p->quote)) {?>
 			<h2 class="entry-title">
-				<a href="<?php echo $p->url;?>" rel="bookmark"><blockquote><i class="fas fa-quote-left"></i> <?php echo $p->quote;?> <i class="fas fa-quote-right"></i></blockquote></a>
+				<a href="<?php echo $p->url;?>"><blockquote><i class="fas fa-quote-left"></i> <?php echo $p->quote;?> <i class="fas fa-quote-right"></i></blockquote></a>
 			</h2><!--/.entry-title-->
 			<?php } else {?>
 			<h2 class="entry-title">
-				<a href="<?php echo $p->url;?>" rel="bookmark"><?php echo $p->title;?></a>
+				<a href="<?php echo $p->url;?>"><?php echo $p->title;?></a>
 			</h2><!--/.entry-title-->
 			<?php } ?>
 

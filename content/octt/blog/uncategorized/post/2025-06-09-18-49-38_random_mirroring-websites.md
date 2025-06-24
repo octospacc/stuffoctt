@@ -76,3 +76,5 @@ You can get HTTrack website copier at its official website (which maybe you can 
   * *"wget --restrict-file-names=windows" seems to fail converting links for NTFS*: <https://unix.stackexchange.com/questions/170923/wget-restrict-file-names-windows-seems-to-fail-converting-links-for-ntfs>
 * *wget: come funziona l'utilità per scaricare file, anche da Windows*: https://www.ilsoftware.it/focus/wget-come-funziona-lutilita-per-scaricare-file-anche-da-windows/
 * Wget for Windows: <https://memos.octt.eu.org/m/ekR8m9mDpyVEVPPzmd9DYP>
+
+![](https://stuff.octt.eu.org/content/images/20250623230830-Untitled63284389.png)
