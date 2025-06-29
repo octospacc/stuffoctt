@@ -4422,6 +4422,16 @@ get('/:static', function ($static) {
         header('Content-Type: text/xml');
         generate_sitemap($sitemap);
         die;
+    } elseif ($static === 'sitemap.txt') {
+        $posts = sitemap_post_path(null, 1, null);
+        header('Content-Type: text/plain');
+        header('X-Robots-Tag: noindex');
+        $map = '';
+        foreach ($posts as $p) {
+        	$map .= $p->url . "\n";
+        }
+        echo $map;
+        die;
     } elseif ($static === 'admin') {
         if (login()) {
             config('views.root', 'system/admin/views');

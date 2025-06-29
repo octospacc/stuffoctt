@@ -34,3 +34,5 @@ Disallow: /composer.phar
 
 # Disallow paths
 Disallow: /admin/
+
+Sitemap: https://stuff.octt.eu.org/sitemap.xml

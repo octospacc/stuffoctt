@@ -534,13 +534,14 @@ function route($method, $pattern, $callback = null)
 {
     // callback map by request type
     static $route_map = array(
+        // 'HEAD' => array(),
         'GET' => array(),
         'POST' => array()
     );
 
     $method = strtoupper($method);
 
-    if (!in_array($method, array('GET', 'POST')))
+    if (!in_array($method, array(/* 'HEAD', */ 'GET', 'POST')))
         error(500, 'Only GET and POST are supported');
 
     // a callback was passed, so we create a route defiition
