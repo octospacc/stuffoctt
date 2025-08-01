@@ -79,12 +79,16 @@ if (file_exists($field_file)) {
 
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo site_url() ?>system/admin/editor/css/editor.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo site_url() ?>system/admin/simplemde.min.css"/> -->
+<link rel="stylesheet" type="text/css" href="<?php echo site_url() ?>system/admin/easymde.min.css"/>
 <script src="<?php echo site_url() ?>system/resources/js/jquery.min.js"></script>
 <script src="<?php echo site_url() ?>system/resources/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php echo site_url() ?>system/admin/editor/js/Markdown.Converter.js"></script>
 <script type="text/javascript" src="<?php echo site_url() ?>system/admin/editor/js/Markdown.Sanitizer.js"></script>
 <script type="text/javascript" src="<?php echo site_url() ?>system/admin/editor/js/Markdown.Editor.js"></script>
 <script type="text/javascript" src="<?php echo site_url() ?>system/admin/editor/js/Markdown.Extra.js"></script>
+<!-- <script type="text/javascript" src="<?php echo site_url() ?>system/admin/simplemde.min.js"></script> -->
+<script type="text/javascript" src="<?php echo site_url() ?>system/admin/easymde.min.js"></script>
 <link rel="stylesheet" href="<?php echo site_url() ?>system/resources/css/jquery-ui.css">
 <script>
 $( function() {
@@ -148,7 +152,10 @@ $( function() {
 <div class="notice error" id="response-error"></div>
 <div class="notice" id="response"></div>
 <div class="row">
-    <div class="hide-button" style="margin-bottom:1em;width:100%;text-align:right;"><button type="button" title="<?php echo i18n('Focus_mode');?>" id="hideButton" class="note-btn btn btn-sm <?php echo ((config('admin.theme') === 'light' || is_null(config('admin.theme'))) ? "btn-light" : "btn-dark");?>" style="width:38px;height:38px;font-size:18px;" ><i class="fa fa-eye" aria-hidden="true"></i></button></div>
+    <div class="hide-button" style="margin-bottom:1em;width:100%;text-align:right;">
+        <button id="toggleMDE">Toggle MDE</button>
+        <button type="button" title="<?php echo i18n('Focus_mode');?>" id="hideButton" class="note-btn btn btn-sm <?php echo ((config('admin.theme') === 'light' || is_null(config('admin.theme'))) ? "btn-light" : "btn-dark");?>" style="width:38px;height:38px;font-size:18px;" ><i class="fa fa-eye" aria-hidden="true"></i></button>
+    </div>
     <div class="wmd-panel" style="width:100%;">
         <form method="POST">
             <div id="post-settings" class="row">
@@ -481,5 +488,17 @@ $('.img-container').on("click", ".the-img", function(e) {
             document.getElementById("preview-col").style.display = '';
             localStorage.setItem("preview-state", 'open');
         }
-    })   
+    })
+    // var simplemde = new SimpleMDE({ element: document.getElementById("wmd-input") });
+    var easymde;
+    function doToggleMDE() {
+        if (!easymde) {
+            easymde = new EasyMDE({ element: document.getElementById("wmd-input") });
+        } else {
+            easymde.toTextArea();
+            easymde = null;
+        }
+    }
+    document.getElementById("toggleMDE").onclick = doToggleMDE;
+    doToggleMDE();
 </script>
