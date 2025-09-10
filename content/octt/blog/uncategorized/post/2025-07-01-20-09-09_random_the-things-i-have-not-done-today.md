@@ -2,6 +2,8 @@
 <!--d It&#039;s the end of the day, the first in this new week following the summer solstice. As much as it pains me, the Intergalactic Council demands to... d-->
 <!--tag Random tag-->
 
+<!--image /content/images/20250910205059-IMG_20250910_203059.jpg image-->
+
 It's the end of the day, the first in this new week following the summer solstice. As much as it pains me, the Great Intergalactic Council demands to know what I've accomplished, today and each day for the remainder of my trial period, because they want to objectively determine if I must be got ridden of, or if I can instead be kept around. They're just so mean...
 
 Well then, today absolutely flew by and this moment came sooner than expected, and now this is kind of a huge problem. Because today I've done so little things that, if I were to just say those, alarm bells would immediately start going off among the Council's heads. But I still have to send them something, and lying is entirely out of the question with those crooks. So... I'll instead list what I have NOT done today, because that's an impressively big compilation!

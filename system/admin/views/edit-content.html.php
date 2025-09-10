@@ -49,11 +49,11 @@ $timestamp = $time->format("Y-m-d H:i:s");
 $postdate = strtotime($timestamp);
 // The post URL
 if (permalink_type() == 'default') {
-    $delete = site_url() . date('Y/m', $postdate) . '/' . $oldmd . '/delete?destination=' . $destination;
+    $post_url = site_url() . date('Y/m', $postdate) . '/' . $oldmd;
 } else {
-    // The post URL
-    $delete = site_url() . permalink_type() . '/' . $oldmd . '/delete?destination=' . $destination;
+    $post_url = site_url() . permalink_type() . '/' . $oldmd;
 }
+$delete = $post_url . '/delete?destination=' . $destination;
 
 $tags = tag_cloud(true);
 $tagslang = "content/data/tags.lang";
@@ -153,7 +153,8 @@ $( function() {
 <div class="notice" id="response"></div>
 <div class="row">
     <div class="hide-button" style="margin-bottom:1em;width:100%;text-align:right;">
-        <button id="toggleMDE">Toggle MDE</button>
+        <button onclick="$('#insertImageDialog').modal('show');" class="btn btn-light">File upload</button>
+        <button id="toggleMDE" class="btn btn-light">Toggle MDE</button>
         <button type="button" title="<?php echo i18n('Focus_mode');?>" id="hideButton" class="note-btn btn btn-sm <?php echo ((config('admin.theme') === 'light' || is_null(config('admin.theme'))) ? "btn-light" : "btn-dark");?>" style="width:38px;height:38px;font-size:18px;" ><i class="fa fa-eye" aria-hidden="true"></i></button>
     </div>
     <div class="wmd-panel" style="width:100%;">
@@ -295,9 +296,14 @@ $( function() {
                         <?php endif;?>
 
                         <?php if ($isdraft[4] == 'draft') { ?>
-                            <input type="submit" name="publishdraft" class="btn btn-primary submit" value="<?php echo i18n('Publish_draft');?>"/> <input type="submit" name="updatedraft" class="btn btn-primary draft" value="<?php echo i18n('Update_draft');?>"/> <a class="btn btn-danger" href="<?php echo $delete ?>"><?php echo i18n('Delete');?></a>
+                            <a class="btn btn-light" href="<?php echo $post_url ?>"><?php echo i18n('Preview_draft');?></a>
+                            <input type="submit" name="publishdraft" class="btn btn-primary submit" value="<?php echo i18n('Publish_draft');?>"/> 
+                            <input type="submit" name="updatedraft" class="btn btn-primary draft" value="<?php echo i18n('Update_draft');?>"/> 
+                            <a class="btn btn-danger" href="<?php echo $delete ?>"><?php echo i18n('Delete');?></a>
                         <?php } else { ?>
-                            <input type="submit" name="updatepost" class="btn btn-primary submit" value="<?php echo i18n('Update_post');?>"/> <input type="submit" name="revertpost" class="btn btn-primary revert" value="<?php echo i18n('Revert_to_draft');?>"/> <a class="btn btn-danger" href="<?php echo $delete ?>"><?php echo i18n('Delete');?></a>
+                            <input type="submit" name="updatepost" class="btn btn-primary submit" value="<?php echo i18n('Update_post');?>"/> 
+                            <input type="submit" name="revertpost" class="btn btn-primary revert" value="<?php echo i18n('Revert_to_draft');?>"/> 
+                            <a class="btn btn-danger" href="<?php echo $delete ?>"><?php echo i18n('Delete');?></a>
                         <?php }?>
                         <br>
                     </div>

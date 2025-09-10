@@ -2,6 +2,8 @@
 <!--d ... Eh, what in the world are you even saying now? Are you perhaps assuming that I&#039;m a crippled femcel just because I&#039;m a deformed 3/10 or d-->
 <!--tag Random tag-->
 
+<!--image https://chpic.su/save2/ru/stickers/colored_emotions_cursed2/020/f=webp_c=png_bg=transparent/ image-->
+
 ...
 
 Eh, what in the world are you even saying now? Are you perhaps assuming that I'm a crippled femcel just because I'm a deformed 3/10 or less and at 21 years old I'm still a kissless hugless virgin who can't speak to both men and women and feels deeply at unease just by existing at all in current society and its environments? TOTALLY WRONG, womp womp.

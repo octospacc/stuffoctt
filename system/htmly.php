@@ -5272,6 +5272,14 @@ get('/:year/:month/:name', function ($year, $month, $name) {
 
     $post = find_post($year, $month, $name);
 
+    if (!$post && login()) {
+        $post = find_draft($year, $month, $name);
+        if (!$post) { 
+            $post = find_scheduled($year, $month, $name);
+        }
+
+    }
+
     if (is_null($post)) {
         not_found('post_'. $name);
     } else {

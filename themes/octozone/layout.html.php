@@ -11,6 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet"> 
 <script src="<?php echo theme_path()?>js/sitoctt-utils.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.1/highlight.min.js"></script>
 </head>
 
 <body class="home blog col-2cl <?php if (!is_index()):?>single<?php endif;?>">
@@ -254,6 +256,8 @@
 <script type="text/javascript">
 	/* <![CDATA[ */
 	var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+	hljs.highlightAll();
+	Array.from(document.querySelectorAll('pre > code')).forEach(function(el){ el.parentElement.style.padding = 0; });
 	/* ]]> */
 </script>	
 <script type="text/javascript" src="<?php echo theme_path();?>js/imagesloaded.pkgd.min.js" id="gridzone-nav-script-js"></script>

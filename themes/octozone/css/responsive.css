@@ -71,7 +71,7 @@
 	/* base */
 	.pad { padding: 20px 20px 10px; }
 	.notebox { margin-bottom: 20px; }
-	.entry { font-size: 15px; }
+	/* .entry { font-size: 15px; } */
 	
 	/* text */
 	.entry h1 { font-size: 30px; letter-spacing: -0.7px; }
@@ -162,7 +162,8 @@
 /* ------------------------------------------------------------------------- *
  *  Mobile (Low Res) : 479px > 0 (320px)
 /* ------------------------------------------------------------------------- */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 719px) {
+/* @media only screen and (max-width: 479px) { */
 	
 	/* layout */
 	.content,
