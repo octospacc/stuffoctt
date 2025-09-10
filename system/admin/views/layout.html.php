@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <script src="<?php echo site_url() ?>system/resources/js/jquery.min.js"></script>
     <script src="<?php echo site_url() ?>system/resources/js/jquery-ui.min.js"></script>
+    <link rel="manifest" href='data:application/json;utf8,{"name":"stuffoctt (Admin)","start_url":"/admin/","display":"standalone","icons":[{"src":"https://stuff.octt.eu.org/favicon.png","type":"image/png","sizes":"48x48"}]}' />
 </head>
 <?php if (login()) { 
 $user = $_SESSION[site_url()]['user'];

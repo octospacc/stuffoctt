@@ -28,7 +28,9 @@ With just 20 pages of manga, it's a really short story, so I don't really know w
 
 The characters in general, by the way, are pretty accurately portrayed in this self-publication, relative to the official works: Taiga is uncontrollably clueless as always, Ryuji is constantly caught in her iron grip of tantrums, all the while Minorin takes her positive personality to the highest extreme. The situation narrated in this extremely specific slice of their life is clearly more absurd than any reasonable person could have ever imagined, but that's what makes this book truly funny, and a refreshing throwback into the relatively forgotten world of Toradora.
 
-If you have a short break to spare, and you're a Toradora fan who's still tremendously hurt that the manga for this absolute piece of a series is still incomplete after almost 15 years, maybe give this reading a try to distract yourself: <https://mangapark.net/title/87910-en-toradora-tiger-no-pants-doujinshi>. Don't get muddy down there, though!
+If you have a short break to spare, and you're a Toradora fan who's still tremendously hurt that the manga for this absolute piece of a series is still incomplete after almost 15 years, maybe give this reading a try to distract yourself: <https://mangapark.net/title/87910-en-toradora-tiger-no-pants-doujinshi> (or, thanks to the brand new _TomoStash_, read it in the embed below). Don't get muddy down there, though!
+
+<iframe src="https://gamingshitposting.github.io/TomoStash/reader/#/en/taiga-no-pants" style="width: 100%; height: 80vh;"></iframe>
 
 <!--
 I read it from an app, and I can't get a share link, so I reuploaded the CBZ file here for you to open it with your favorite reader:

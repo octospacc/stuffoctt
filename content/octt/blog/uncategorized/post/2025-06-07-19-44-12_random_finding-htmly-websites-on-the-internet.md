@@ -6,7 +6,7 @@ Usually, when I get really invested in some piece of open-source software, I lik
 
 Unfortunately, regarding this matter, HTMLy is in kind of a tough spot. It's not at all widely known, so it's absolutely unlikely to stumble on someone using it or even just recommending it, and it doesn't even have its own gallery of sites (like instead some static site generators do, eg. [Docusaurus](https://docusaurus.io/showcase)). But, at the same time, it has existed for enough time, and has enough eyes on it, that one can be statistically sure that at least a handful of sites on the web must be powered by it; so, it logically would be a shame to give up on such a time sink without at least trying.
 
-Given that I have a lot of time to waste, it's only natural that I was going to come up with my own ways to tackle this problem (one that for normal people wouldn't even exist in the first place). So, from the obvious to the complex, let's see all of them here, before either I forget them forever, or someone else steals my latest opportunity to make yet another post about HTMLy.
+Given that I have a lot of time to waste, it's only natural that I was going to come up with my own ways to tackle this problem (one that for normal people wouldn't even exist in the first place). So, from the obvious to the complex, let's see all of them here, before either I forget them forever, or someone else steals my latest opportunity to make yet another post about HTMLy. Oh and, just to show off what can be achieved with these simple ways, in my notes I actually hold a list of random HTMLy websites, that I update whenever I feel like it; check it out: <https://memos.octt.eu.org/m/DaaRwUFpfPPjrcTJen7ynN>!
 
 ## Using Standard Search Engines
 
