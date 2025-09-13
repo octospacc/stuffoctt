@@ -296,7 +296,7 @@ $( function() {
                         <?php endif;?>
 
                         <?php if ($isdraft[4] == 'draft') { ?>
-                            <a class="btn btn-light" href="<?php echo $post_url ?>"><?php echo i18n('Preview_draft');?></a>
+                            <a class="btn btn-light" href="<?php echo $post_url ?>" target="_blank"><?php echo i18n('Preview_draft');?></a>
                             <input type="submit" name="publishdraft" class="btn btn-primary submit" value="<?php echo i18n('Publish_draft');?>"/> 
                             <input type="submit" name="updatedraft" class="btn btn-primary draft" value="<?php echo i18n('Update_draft');?>"/> 
                             <a class="btn btn-danger" href="<?php echo $delete ?>"><?php echo i18n('Delete');?></a>

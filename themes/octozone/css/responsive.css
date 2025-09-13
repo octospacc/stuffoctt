@@ -52,7 +52,7 @@
 /* ------------------------------------------------------------------------- *
  *  Mobile (Mid Res) : 719px > 0px (480px & 320px)
 /* ------------------------------------------------------------------------- */
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 719px), only print {
 	
 	/* layout */
 	#wrapper { padding-left: 0; }
@@ -162,7 +162,7 @@
 /* ------------------------------------------------------------------------- *
  *  Mobile (Low Res) : 479px > 0 (320px)
 /* ------------------------------------------------------------------------- */
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 719px), only print {
 /* @media only screen and (max-width: 479px) { */
 	
 	/* layout */
@@ -204,3 +204,8 @@
 	
 }
 
+@media only print {
+	body.single .content > .masonry { display: none; }
+	.sticky-element-placeholder.sticky-element-active { display: none !important; }
+	#header-sticky { position: relative !important; left: 0 !important; width: auto !important; }
+}

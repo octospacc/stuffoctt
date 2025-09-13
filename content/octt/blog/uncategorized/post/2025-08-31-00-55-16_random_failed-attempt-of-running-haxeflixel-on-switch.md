@@ -174,7 +174,7 @@ function fakeStyle() {
 }
 ```
 
-And now, the game actually doesn't crash with an error! But that's not a good thing, because it doesn't play either... and, since nx.js seems to have no debugger, apart from [the standard JavaScript Console API](https://memos.octt.eu.org/m/QQiT7vUTxtCh5sTCh5i45a) to write text to the screen or to a debug log file, this is a big problem, because it's practically impossible (short of writing million of print statements, at least) to know where the code trips up.
+And now, the game actually doesn't crash with an error! But that's not a good thing, because it doesn't play either... and, since nx.js seems to have no debugger, apart from [the standard JavaScript Console API](https://memos.octt.eu.org/m/QQiT7vUTxtCh5sTCh5i45a) to write text to the screen or to a debug log file, this is a big problem, because it's practically impossible (short of writing millions of print statements, at least) to know where the code trips up.
 
 ![Showing the white square on the Switch](https://stuff.octt.eu.org/content/images/20250831153209-2493943943C1apture.PNG)
 

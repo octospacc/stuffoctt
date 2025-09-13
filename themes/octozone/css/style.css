@@ -1585,3 +1585,5 @@ text-decoration: none;
 button { padding: 0.5em;  }
 input, textarea { width: 100%; }
 textarea { height: 5em; }
+
+article .entry-content { word-wrap: break-word; }
