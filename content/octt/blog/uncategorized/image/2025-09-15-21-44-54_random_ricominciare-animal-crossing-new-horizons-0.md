@@ -3,7 +3,7 @@
 <!--tag Random tag-->
 <!--image https://stuff.octt.eu.org/content/images/20250915214621-2025091519474000-02CB906EA538A35643C1E1484C4B947D.jpg image-->
 
-Oggi mi sono sentita un po' pazza, e ho così deciso, di punto in bianco, di fare un nuovo esperimento... Dare una seconda possibilità ad Animal Crossing New Horizon, che, dopo aver giocato per giusto un paio di mesi alla sua uscita, nella magicissima era della quarantena (o, in altri termini, nell'anno 0 d.C, _dopo Covid_), ho completamente e assolutamente abbandonato. Triste!
+Oggi mi sono sentita un po' pazza, e ho così deciso, di punto in bianco, di fare un nuovo esperimento... Dare una seconda possibilità ad Animal Crossing New Horizons, che, dopo aver giocato per giusto un paio di mesi alla sua uscita, nella magicissima era della quarantena (o, in altri termini, nell'anno 0 d.C, _dopo Covid_), ho completamente e assolutamente abbandonato. Triste!
 
 Vorrei provare, con questa scusa, a tenere una sottospecie (qui la qualità non è di casa, lo sappiamo) di diario di gioco, scrivendo per giocare e giocando per scrivere, a proposito di tutti i miei momenti nel gioco... cosa che in realtà avrei vagamente voluto fare quei 5 anni fa, ma all'epoca non ero abituata a scrivere e, avendo più una mentalità da guida che da blog, l'idea mi è morta subito. Ma, insomma, vedremo cosa succederà questa volta...
 
