@@ -63,14 +63,25 @@ function arrayDefault(&$array, $key, $default) {
     if (!isset($array[$key])) $array[$key] = $default;
 }
 
-function serializePost($post, $id) {
+function blogInfo($user) {
+    return [[
+        'isAdmin' => user('role', $user) === 'admin',
+        // 'isPrimary' => true,
+        'blogid' => '1',
+        'blogName' => blog_title(),
+        'url' => site_url(),
+        'xmlrpc' => site_url() . 'xmlrpc.php',
+    ]];
+}
+
+function serializePost($post, $id, $filter = []) {
     $created = new Value(date('Ymd\TH:i:s', $post->date), 'dateTime.iso8601');
     $modified = new Value(date('Ymd\TH:i:s', $post->lastMod), 'dateTime.iso8601');
     $parts = explode('<div class="toc-wrapper"', $post->body);
     $left = array_shift($parts);
     $parts = explode('</div>', implode('<div class="toc-wrapper"', $parts));
     $right = implode('</div>', array_slice($parts, 3));
-    return [
+    $result = [
         'post_id' => $id,
         'post_name' => $post->slug,
         'post_title' => $post->title,
@@ -84,6 +95,33 @@ function serializePost($post, $id) {
         'link' => $post->url,
         'terms' => [],
     ];
+    if ($filter)
+        $result = array_intersect_key($result, array_flip($filter));
+    return $result;
+}
+
+function blogger_getUsersBlogs($a, $user, $pass) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+    return blogInfo($user);
+}
+
+function metaWeblog_getRecentPosts($i, $user, $pass, $number = null) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+    // return [serializePost(get_posts(null, 10, 1)[0], 4611686018427387904)];
+}
+
+function metaWeblog_getPost($post_id, $user, $pass) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+    // return serializePost(get_posts(null, 10, 1)[0], 4611686018427387904);
+}
+
+function mt_getPostCategories($post_id, $user, $pass) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+
 }
 
 function wp_getUsersBlogs($user, $pass) {
@@ -92,14 +130,7 @@ function wp_getUsersBlogs($user, $pass) {
     // ensureAuth($u, $p);
     if (!checkAuth($user, $pass)) return throwAuth();
 
-    return [[
-        'isAdmin' => user('role', $user) === 'admin',
-        // 'isPrimary' => true,
-        'blogid' => '1',
-        'blogName' => blog_title(),
-        'url' => site_url(),
-        'xmlrpc' => site_url() . 'xmlrpc.php',
-    ]];
+    return blogInfo($user);
 }
 
 function wp_getProfile($i, $user, $pass) {
@@ -127,6 +158,12 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
 
     arrayDefault($opts, 'number', 10);
     arrayDefault($opts, 'offset', 0);
+    arrayDefault($opts, 'post_status', '');
+
+    $status = explode(',', $opts['post_status']);
+    if (!in_array('publish', $status)) return [];
+    // if (in_array('trash'))
+    // if ($opts['post_status'] === 'trash') return [];
 
     // number = 10
     // offset = 0
@@ -139,7 +176,7 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
     $sources = get_blog_posts();
     $results = [];
     // $id = 1 + $opts['offset'];
-    $id = count($sources) - $opts['offset'];
+    $id = 4611686018427387904 + count($sources) - $opts['offset'];
 
     // var_dump(get_posts(null, 1, $opts['number']));
     foreach (get_posts($sources, 1 + ($opts['offset'] / $opts['number']), $opts['number']) as $post) {
@@ -155,7 +192,7 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
         //     'post_author' => $post->author,
         //     'post_status' => 'publish',
         // ];
-        $results[] = serializePost($post, $id--);
+        $results[] = serializePost($post, $id--, $filter);
     }
 
     // 'post_id'
@@ -203,13 +240,51 @@ function wp_getPost($i, $user, $pass, $post_id) {
 
     // find_post($year, $month, $name)
     $sources = get_blog_posts();
-    $post_id = count($sources) - $post_id + 1;
+    $post_id = count($sources) - ($post_id - 4611686018427387904) + 1;
     if ($post_id > 0) {
-        return serializePost(get_posts($sources, $post_id, 1)[0], $post_id);
+        return serializePost(get_posts($sources, $post_id, 1)[0], $post_id + 4611686018427387904);
     }
 }
 
+function wp_newPost($i, $user, $pass, $data) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+    // post_title
+    // post_content
+    // post_name
+    // post_date
+    // post_date_gmt
+    // post_thumbnail = 0
+    // post_format = standard
+    // post_type = post
+    // post_status = publish|draft|...
+    // post_excerpt
+    // comment_status = open
+}
+
+function wp_editPost($i, $user, $pass, $post_id, $data) {
+    if (!checkAuth($user, $pass)) return throwAuth();
+
+    // post_title
+    // post_content
+    // terms
+    //      category = []
+    // post_tag = []
+    // post_name
+    // post_date
+    // post_password
+    // post_thumbnail
+    // post_format
+    // post_type
+    // post_status
+    // post_excerpt
+    // post_date_gmt
+}
+
 $methods = [
+    'blogger.getUsersBlogs',
+    'metaWeblog.getRecentPosts', 'metaWeblog.getPost',
+    'mt.getPostCategories',
     'wp.getUsersBlogs', 'wp.getProfile', 'wp.getOptions',
     'wp.uploadFile',
     'wp.getPage', 'wp.getPages',
