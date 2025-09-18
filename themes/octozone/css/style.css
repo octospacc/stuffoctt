@@ -72,7 +72,7 @@ body { background: #f5f5f5; font-size: 15px; line-height: 1.5em; color: #444; fo
 ::-moz-selection { background: #333; color: #fff; }
 a { color: #333; text-decoration: none; }
 a:hover { color: #333; }
-img { max-width: 100%; height: auto; }
+img, video { max-width: 100%; height: auto; }
 a,
 a:before,
 a:after { transition-property: background color; transition-duration: 0.2s; transition-timing-function: ease; }
