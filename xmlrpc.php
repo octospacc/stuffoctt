@@ -18,40 +18,46 @@ spl_autoload_register(function ($class) {
 });
 
 use PhpXmlRpc\Server;
-// use PhpXmlRpc\Request;
 use PhpXmlRpc\Response;
 use PhpXmlRpc\Value;
-//use PhpXmlRpc\Exception;
 
-// Define your method
-// function blogNewPost($methodName, $params, $appData)
-// {
-//     $title = $params[0]->scalarval();
-//     $content = $params[1]->scalarval();
+const POST_PUBLISH_OFFSET = 1000000;
+const POST_DRAFT_OFFSET = 2000000;
+const POST_FUTURE_OFFSET = 3000000;
 
-//     // You can add authentication or validation here
+const PAGE_PUBLISH_OFFSET = 4000000;
+const PAGE_DRAFT_OFFSET = 5000000;
 
-//     $message = "New post created: '$title' with content: '$content'";
-//     return new Response(new Value($message));
-// }
+const OFFSETS = [
+    'POST' => [
+        'publish' => POST_PUBLISH_OFFSET,
+        'draft' => POST_DRAFT_OFFSET,
+        'future' => POST_FUTURE_OFFSET,
+    ],
+    'PAGE' => [
+
+    ],
+];
+
+const OFFSETS_LIST = [
+    POST_PUBLISH_OFFSET => ['POST', 'publish'],
+    POST_DRAFT_OFFSET => ['POST', 'draft'],
+    POST_FUTURE_OFFSET => ['POST', 'future'],
+    PAGE_PUBLISH_OFFSET => ['PAGE', 'publish'],
+    PAGE_DRAFT_OFFSET => ['PAGE', 'draft'],
+];
 
 function checkAuth($user, $pass) {
-    // return empty(session($user, $pass));
-
     $user_enc = user('encryption', $user);
     $user_pass = user('password', $user);
     $user_role = user('role', $user);
 
     if (is_null($user_enc) || is_null($user_pass) || is_null($user_role)) return false;
 
-    if ($user_enc === 'password_hash') {
+    if ($user_enc === 'password_hash')
         return password_verify($pass, $user_pass);
-    }
 
     return false;
-
-    // throw new Exception('Wrong username or password.', 403);
-    // throw new XmlRpcException('Wrong username or password.', 403);
 }
 
 function throwAuth() {
@@ -59,8 +65,14 @@ function throwAuth() {
     return new Response(0, 403, 'Wrong username or password.');
 }
 
-function arrayDefault(&$array, $key, $default) {
+function arrayDefault($array, $key, $default) {
     if (!isset($array[$key])) $array[$key] = $default;
+}
+
+function applyFilter($array, $filter) {
+    if ($filter)
+        $array = array_intersect_key($array, array_flip($filter));
+    return $array;
 }
 
 function blogInfo($user) {
@@ -74,13 +86,67 @@ function blogInfo($user) {
     ]];
 }
 
-function serializePost($post, $id, $filter = []) {
-    $created = new Value(date('Ymd\TH:i:s', $post->date), 'dateTime.iso8601');
-    $modified = new Value(date('Ymd\TH:i:s', $post->lastMod), 'dateTime.iso8601');
+function getPostHtml($post) {
     $parts = explode('<div class="toc-wrapper"', $post->body);
     $left = array_shift($parts);
     $parts = explode('</div>', implode('<div class="toc-wrapper"', $parts));
     $right = implode('</div>', array_slice($parts, 3));
+    return $left . $right;
+}
+
+function getPostById($post_id) {
+    $offset = getOffsetFromId($post_id);
+    $sources = getPostsOfStatus(OFFSETS_LIST[$offset][1]);
+    $post_id = count($sources) - ($post_id - $offset) + 1;
+    if ($post_id > 0)
+        return get_posts($sources, $post_id, 1)[0];
+}
+
+function getPostsOfStatus($type) {
+    switch ($type) {
+        case 'publish':
+            return get_blog_posts();
+        case 'draft':
+            return get_draft_posts();
+        case 'future':
+            return get_scheduled_posts();
+    }
+}
+
+function getOffsetFromId($id) {
+    foreach (array_reverse(OFFSETS_LIST, true) as $offset => $types) {
+        if ($id > $offset)
+            return $offset;
+    }
+}
+
+// function getTypesFromId($id) {
+//     foreach (array_reverse(OFFSETS_LIST, true) as $offset => $types) {
+//         if ($id > $offset)
+//             return $types;
+//     }
+// }
+
+function serializePostToMetaweblog($post, $id) {
+    $created = new Value(date('Ymd\TH:i:s', $post->date), 'dateTime.iso8601');
+    $modified = new Value(date('Ymd\TH:i:s', $post->lastMod), 'dateTime.iso8601');
+    return [
+        'postid' => $id,
+        'title' => $post->title,
+        'description' => getPostHtml($post),
+        'link' => $post->url,
+        'userid' => $post->author,
+        'dateCreated' => $created,
+        'date_created_gmt' => $created,
+        'date_modified' => $modified,
+        'date_modified_gmt' => $modified,
+        'post_status' => 'publish',
+    ];
+}
+
+function serializePostToWordpress($post, $id, $filter = null) {
+    $created = new Value(date('Ymd\TH:i:s', $post->date), 'dateTime.iso8601');
+    $modified = new Value(date('Ymd\TH:i:s', $post->lastMod), 'dateTime.iso8601');
     $result = [
         'post_id' => $id,
         'post_name' => $post->slug,
@@ -91,13 +157,14 @@ function serializePost($post, $id, $filter = []) {
         'post_modified_gmt' => $modified,
         'post_author' => $post->author,
         'post_status' => 'publish',
-        'post_content' => $left . $right, // $post->body,
+        'post_content' => getPostHtml($post),
         'link' => $post->url,
         'terms' => [],
     ];
-    if ($filter)
-        $result = array_intersect_key($result, array_flip($filter));
-    return $result;
+    return applyFilter($result, $filter);
+    // if ($filter)
+    //     $result = array_intersect_key($result, array_flip($filter));
+    // return $result;
 }
 
 function blogger_getUsersBlogs($a, $user, $pass) {
@@ -109,25 +176,32 @@ function blogger_getUsersBlogs($a, $user, $pass) {
 function metaWeblog_getRecentPosts($i, $user, $pass, $number = null) {
     if (!checkAuth($user, $pass)) return throwAuth();
 
-    // return [serializePost(get_posts(null, 10, 1)[0], 4611686018427387904)];
+    // return [serializePostToMetaweblog(get_posts(null, 10, 1)[0], POST_PUBLISH_OFFSET)];
+    $results = [];
+    $status = 'publish';
+    $sources = getPostsOfStatus($status);
+    $id = OFFSETS['POST'][$status] + count($sources);
+
+    foreach (get_posts($sources, 1, $number ?? 10) as $post)
+        $results[] = serializePostToMetaweblog($post, $id--);
+
+    return $results;
 }
 
 function metaWeblog_getPost($post_id, $user, $pass) {
     if (!checkAuth($user, $pass)) return throwAuth();
 
-    // return serializePost(get_posts(null, 10, 1)[0], 4611686018427387904);
+    // return serializePostToMetaweblog(get_posts(null, 10, 1)[0], POST_PUBLISH_OFFSET);
+    return serializePostToMetaweblog(getPostById($post_id), $post_id);
 }
 
 function mt_getPostCategories($post_id, $user, $pass) {
     if (!checkAuth($user, $pass)) return throwAuth();
 
-
+    // ~~~
 }
 
 function wp_getUsersBlogs($user, $pass) {
-    // if (!checkAuth($u, $p)) return null;
-    // throw new Exception('Wrong username or password.', 403);
-    // ensureAuth($u, $p);
     if (!checkAuth($user, $pass)) return throwAuth();
 
     return blogInfo($user);
@@ -160,10 +234,26 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
     arrayDefault($opts, 'offset', 0);
     arrayDefault($opts, 'post_status', '');
 
-    $status = explode(',', $opts['post_status']);
-    if (!in_array('publish', $status)) return [];
+    $statuses = explode(',', $opts['post_status']);
+    // if (!in_array('publish', $statuses)) return [];
     // if (in_array('trash'))
     // if ($opts['post_status'] === 'trash') return [];
+    if (in_array('publish', $statuses))
+        $status = 'publish';
+    elseif (in_array('draft', $statuses))
+        $status = 'draft';
+    elseif (in_array('future', $statuses))
+        $status = 'future';
+    else
+        return [];
+
+    // foreach($statuses as $status) {
+    //     $sources = getPostsOfStatus($status);
+    //     if ($sources) {
+    //         $results = [];
+    //         $id = OFFSETS['POST'][$status] + count($sources) - $opts['offset'];
+    //     }
+    // }
 
     // number = 10
     // offset = 0
@@ -173,26 +263,13 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
 
     // post_id  post_modified_gmt  post_status
 
-    $sources = get_blog_posts();
+    // $sources = get_blog_posts();
     $results = [];
-    // $id = 1 + $opts['offset'];
-    $id = 4611686018427387904 + count($sources) - $opts['offset'];
+    $sources = getPostsOfStatus($status);
+    $id = OFFSETS['POST'][$status] + count($sources) - $opts['offset'];
 
-    // var_dump(get_posts(null, 1, $opts['number']));
     foreach (get_posts($sources, 1 + ($opts['offset'] / $opts['number']), $opts['number']) as $post) {
-        // $created = new Value(date('Ymd\TH:i:s', $post->date), 'dateTime.iso8601');
-        // $modified = new Value(date('Ymd\TH:i:s', $post->lastMod), 'dateTime.iso8601');
-        // $results[] = [
-        //     'post_id' => $id--, // $id++,
-        //     'post_title' => $post->title,
-        //     'post_date' => $created,
-        //     'post_date_gmt' => $created,
-        //     'post_modified' => $modified,
-        //     'post_modified_gmt' => $modified,
-        //     'post_author' => $post->author,
-        //     'post_status' => 'publish',
-        // ];
-        $results[] = serializePost($post, $id--, $filter);
+        $results[] = serializePostToWordpress($post, $id--, $filter);
     }
 
     // 'post_id'
@@ -238,12 +315,19 @@ function wp_getPosts($i, $user, $pass, $opts = [], $filter = null) {
 function wp_getPost($i, $user, $pass, $post_id) {
     if (!checkAuth($user, $pass)) return throwAuth();
 
-    // find_post($year, $month, $name)
-    $sources = get_blog_posts();
-    $post_id = count($sources) - ($post_id - 4611686018427387904) + 1;
-    if ($post_id > 0) {
-        return serializePost(get_posts($sources, $post_id, 1)[0], $post_id + 4611686018427387904);
-    }
+    // $sources = get_blog_posts();
+    // $post_id = count($sources) - ($post_id - POST_PUBLISH_OFFSET) + 1;
+    // if ($post_id > 0) {
+    //     return serializePostToWordpress(get_posts($sources, $post_id, 1)[0], $post_id + POST_PUBLISH_OFFSET);
+    // }
+
+    // $offset = getOffsetFromId($post_id);
+    // $sources = getPostsOfStatus(OFFSETS_LIST[$offset][1]);
+    // $post_id = count($sources) - ($post_id - $offset) + 1;
+    // if ($post_id > 0)
+    //     return serializePostToWordpress(get_posts($sources, $post_id, 1)[0], $post_id + $offset);
+
+    return serializePostToWordpress(getPostById($post_id), $post_id);
 }
 
 function wp_newPost($i, $user, $pass, $data) {

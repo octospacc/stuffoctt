@@ -506,5 +506,5 @@ $('.img-container').on("click", ".the-img", function(e) {
         }
     }
     document.getElementById("toggleMDE").onclick = doToggleMDE;
-    doToggleMDE();
+    // doToggleMDE();
 </script>

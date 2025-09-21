@@ -1587,3 +1587,10 @@ input, textarea { width: 100%; }
 textarea { height: 5em; }
 
 article .entry-content { word-wrap: break-word; }
+
+a#page-qr-code { display: none; }
+a#page-qr-code > img {
+	float: right;
+	margin-right: 2em;
+	height: 96pt;
+}

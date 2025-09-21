@@ -205,7 +205,10 @@
 }
 
 @media only print {
-	body.single .content > .masonry { display: none; }
-	.sticky-element-placeholder.sticky-element-active { display: none !important; }
+	body.single .content > .masonry,
+	.sticky-element-placeholder.sticky-element-active,
+	#wrap-nav-header, .toggle-search,
+	.sharrre-container { display: none !important; }
 	#header-sticky { position: relative !important; left: 0 !important; width: auto !important; }
+	a#page-qr-code { display: revert; }
 }

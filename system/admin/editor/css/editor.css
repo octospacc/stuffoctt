@@ -186,3 +186,37 @@ pre code {
 .notice.error {
 	background-color: #fdd;
 }
+
+.wmd-button-bar .wmd-button span {
+    font-size: 1.25rem;
+}
+
+#wmd-maximize-button, #wmd-minimize-button {
+    float: right;
+}
+
+div.fullscreen-editor {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.fullscreen-editor > textarea {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+div.fullscreen-wrapper > div#preview-col,
+div.fullscreen-editor > a,
+div.fullscreen-editor > br,
+div.fullscreen-editor > details,
+div.fullscreen-editor > label,
+div.fullscreen-editor > input[type="submit"] {
+    display: none;
+}
