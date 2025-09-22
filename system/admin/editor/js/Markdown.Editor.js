@@ -24,7 +24,7 @@
         italic: "Emphasis <em> Ctrl+I",
         italicexample: "emphasized text",
 		
-        strikethrough: "Strikethrough <s> Ctrl+X",
+        strikethrough: "Strikethrough <s> Ctrl+S",
         strikethroughexample: "strikethrough text",
 
         link: "Hyperlink <a> Ctrl+L",
@@ -56,8 +56,9 @@
 		
         table: "Table - Ctrl+J",
 
-        maximize: "Maximize CTRL+P",
-        minimize: "Minimize CTRL+P",
+        status: "Status - CTRL+E",
+        maximize: "Maximize - CTRL+P",
+        minimize: "Minimize - CTRL+P",
 
         undo: "Undo - Ctrl+Z",
         redo: "Redo - Ctrl+Y",
@@ -346,6 +347,9 @@
         this.buttonBar = doc.getElementById("wmd-button-bar" + postfix);
         this.preview = doc.getElementById("wmd-preview" + postfix);
         this.input = doc.getElementById("wmd-input" + postfix);
+        this.statusbar = Object.assign(document.createElement('span'), { id: "wmd-statusbar", textContent: "-" });
+
+        this.input.parentElement.insertBefore(this.statusbar, this.input.nextElementSibling);
     };
 
     // Returns true if the DOM element is visible, false if it's hidden.
@@ -966,6 +970,26 @@
             }
         };
 
+        var lastStatus = {};
+        var updateStatusbar = function() {
+            if (!panels.statusbar.classList.contains('visible')) {
+                return;
+            }
+            var text = panels.input.value;
+            var chars = panels.input.textLength;
+            var wordsArray = text.trim().split(/\s+/)
+            var words = (wordsArray.length === 1 && !wordsArray[0] ? 0 : wordsArray.length);
+            var lines = text.split('\n').length;
+            if (lastStatus.chars !== chars || lastStatus.words !== words || lastStatus.lines !== lines) {
+                // prevent wasting too many resources when duplicate events arrive
+                lastStatus = { chars: chars, words: words, lines: lines };
+                panels.statusbar.textContent =
+                    chars + " chars, " +
+                    words + " words, " +
+                    lines + " lines";
+            }
+        }
+
         this.refresh = function (requiresRefresh) {
 
             if (requiresRefresh) {
@@ -1046,6 +1070,9 @@
         };
 
         var init = function () {
+            panels.statusbar.update = updateStatusbar;
+            setupEvents(panels.input, updateStatusbar);
+            updateStatusbar();
 
             setupEvents(panels.input, applyTimeout);
             makePreviewHtml();
@@ -1314,11 +1341,14 @@
                     case "m":
                         doClick(buttons.readmore);
                         break;
-                    // case "x":
-                    //     doClick(buttons.strikethrough);
-                    //     break;
+                    case "s":
+                        doClick(buttons.strikethrough);
+                        break;
                     case "j":
                         doClick(buttons.table);
+                        break;
+                    case "e":
+                        doClick(buttons.status);
                         break;
                     case "p":
                         doClick(buttons.maximize);
@@ -1534,6 +1564,8 @@
             buttons.minimize = makeButton("wmd-minimize-button", getString("minimize"), "fa-solid fa-minimize", toggleFullscreen);
             buttons.minimize.hidden = true;
 
+            buttons.status = makeButton("wmd-status-button", getString("status"), "fa-solid fa-info", toggleStatusbar);
+
             //makeSpacer(3);
             buttons.undo = makeButton("wmd-undo-button", getString("undo"), "fa-solid fa-rotate-left", null);
             buttons.undo.execute = function (manager) {
@@ -1581,6 +1613,18 @@
             document.body.style.overflowY = fullscreen ? 'hidden' : null;
             document.body.querySelector('aside.main-sidebar').style.display =
             document.body.querySelector('nav.main-header').style.display = fullscreen ? 'none' : null;
+        }
+
+        function toggleStatusbar() {
+            var visible = panels.statusbar.classList.toggle('visible');
+            if (visible) {
+                panels.statusbar.update();
+            }
+            localStorage.setItem("statusbar-state", visible ? "open" : "close");
+        }
+
+        if (localStorage.getItem("statusbar-state") !== "close") {
+            toggleStatusbar();
         }
 
         function setUndoRedoButtonStates() {

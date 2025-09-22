@@ -472,29 +472,8 @@ $('.img-container').on("click", ".the-img", function(e) {
 <script src="<?php echo site_url();?>system/resources/js/save_draft.js?v=1"></script>
 <?php endif;?>
 <?php endif;?>
+<script src="<?php echo site_url();?>system/resources/js/admin_editor.js"></script>
 <script>
-    if (localStorage.getItem("preview-state") === "open") {
-        document.getElementById("editor-col").classList.remove('col-sm-12');
-        document.getElementById("editor-col").classList.add('col-sm-6');
-        document.getElementById("preview-col").style.display = '';
-    } else if (localStorage.getItem("preview-state") === "close") {
-        document.getElementById("editor-col").classList.remove('col-sm-6');
-        document.getElementById("editor-col").classList.add('col-sm-12');
-        document.getElementById("preview-col").style.display = 'none';
-    }
-    document.getElementById("preview-toggle").addEventListener("click", () => {
-        if (document.getElementById("editor-col").className.includes("col-sm-6")) {
-            document.getElementById("editor-col").classList.remove('col-sm-6');
-            document.getElementById("editor-col").classList.add('col-sm-12');
-            document.getElementById("preview-col").style.display = 'none';
-            localStorage.setItem("preview-state", 'close');
-        } else {
-            document.getElementById("editor-col").classList.remove('col-sm-12');
-            document.getElementById("editor-col").classList.add('col-sm-6');
-            document.getElementById("preview-col").style.display = '';
-            localStorage.setItem("preview-state", 'open');
-        }
-    })
     // var simplemde = new SimpleMDE({ element: document.getElementById("wmd-input") });
     var easymde;
     function doToggleMDE() {
