@@ -12,7 +12,7 @@ Dall'altro lato, però, mi ha sorpreso scoprire che lui ha una storia dietro rel
 
 Ciò che invece non stupisce è vedere come quelli del Dark Kingdom finiscano sempre più fuori strada riguardo la natura di questo cristallo, arrivando stavolta a convincersi (senza nemmeno ripensarci un attimo) che possa essere proprio Sailor Moon a possederlo, e quindi subito vanno a costruire l'ennesimo piano di plagio mentale delle masse con l'intento di catturarla.
 
-A proposito: qui Queen Metallia, la famosa "eccelsa sovrana", viene "temporaneamente resuscitata" (che incantesimo bizzarro) da Queen Beryll, che vuole consultarsi con lei proprio riguardo Sailor Moon, e quindi si riesce a vedere (anche fisicamente) qualcosa di più del suo personaggio... che fa oggettivamente paura! È questa massa di materia oscura progressivamente sempre più informe ma densissima, dall'aspetto vagamente umanoide così da non far dormire i bambini che leggono, che fa preoccupare persino Queen Beryll per quanto rischia di divorare l'intero pianeta quando sarà liberata! Abbastanza me-core...
+A proposito: qui Queen Metallia, la famosa "eccelsa sovrana", viene "temporaneamente resuscitata" (che incantesimo bizzarro) da Queen Beryl, che vuole consultarsi con lei proprio riguardo Sailor Moon, e quindi si riesce a vedere (anche fisicamente) qualcosa di più del suo personaggio... che fa oggettivamente paura! È questa massa di materia oscura progressivamente sempre più informe ma densissima, dall'aspetto vagamente umanoide così da non far dormire i bambini che leggono, che fa preoccupare persino Beryll per quanto rischia di divorare l'intero pianeta quando sarà liberata! Abbastanza me-core...
 
 ![](https://stuff.octt.eu.org/content/images/20250922164051-IMG_20250922_163224.jpg)
 
