@@ -1,0 +1,39 @@
+<!--t Progressi a rallentatore e momenti più calmi, su New Horizons (Giorni 9-10-11) t-->
+<!--d Questi giorni, forse complice la mia vita avvitata, sono successe meno cose tra i miei animali crostini, e quindi ora sono qui a fare un solo d-->
+<!--tag Random tag-->
+
+Questi giorni, forse complice la mia vita avvitata, sono successe meno cose tra i miei animali crostini, e quindi ora sono qui a fare un solo articolo per 3 giorni di fila. Forse è perché non ce la facevo le altre sere, ma il lato positivo è che almeno così c'è un post decente anziché 3 senza né capo né coda... ma vediamo subito i punti gustosi.
+
+I punti salienti di questo gaming passato e presente, ovviamente, ruotano attorno al famoso negozio di Marco e Mirco, che però in questo gioco si chiama sempre e comunque "Bottega di Nook"... non "Bottega Nook", che magari ci poteva anche stare, essendo loro i nipotini acquisiti; ma no, Tom Nook si prende tutto il merito pure questa volta in cui, a differenza dei tempi di New Leaf, lui non ci ha messo neppure i materiali per costruire 'sta baracca, che ho dovuto invece sobbarcarmi io. Ah e, a proposito di quella famosa ricompensa che avrei dovuto ricevere alla fine di tutto... le cose sono due: o non ho avuto niente, e quindi quella era una bugia bella e buona, o loro chiamano "ricompensa" il darmi ancora un altro incarico, cioè di posizionare la tenda del negozio. Grazie, proprio grazie davvero; è come se chiedessi a qualcuno di andarmi a comprare un gelato promettendo qualcosa in cambio, e al ritorno del malcapitato di turno io rispondessi che "beh, la passeggiata che hai fatto fa bene alla salute, goditela!"... razza di animali!
+
+![](https://stuff.octt.eu.org/content/images/20250926083124-2025092500534600-02CB906EA538A35643C1E1484C4B947D.jpg)
+
+Ho raccolto i materiali mancanti la prima sera... cioè, il singolo pezzo di ferro che mancava, e poi tanti altri materiali che mi serviranno chissà quando per la roba mia... e solo la seconda sera ho passato il ferro ai futuri negozianti, perché non volevo correre troppo... e ora, alla terza sera, il negozio sarebbe pronto... ma per me non ancora.
+Infatti, se comunque ho pensato che alla fine dei conti mi sarei trovata a lavorare a gratis, non ho proprio riflettuto sul fatto che, al netto di tutti i vantaggi del negozio, c'è anche un lato negativo: mentre prima i procioni erano h24, ora con il negozio ci sono degli orari di apertura, dalle 8 alle 22. Certo, non è male in assoluto, ma considerando gli orari in cui io apro il gioco... mannaggia al caspito.
+
+Quindi, se avrò fortuna, domani vedrò il negozio da dentro, forse... e per ora non posso svuotarmi l'inventario in cambio di soldi. O meglio, la bottega ha un cestino all'esterno in cui si possono depositare oggetti e ricevere soldi in cambio di essi il giorno seguente... ma usandola si ricevono meno soldi che vendendo direttamente, quindi non conviene. (Poi, vorrei chiedermi anche come sia possibile per Marco e Mirco sapere a chi fare il bonifico, visto che il cestino è un banale contenitore senza alta tecnologia, quindi non potrebbero in teoria sapere chi ci ha appoggiato cose dentro... ma ormai eviterei di porre questi dubbi così in pubblico, potrebbero prima o poi farmi fuori.)
+
+Le cose speciali però finiscono qui... per il brevissimo momento. Oggi infatti, a parte il nuovo negozio chiuso, ho trovato Tom Nook a parlare al telefono nella sua tenda, a riguardo di 3 nuovi animali che si dovrebbero a quanto pare trasferire. Ah, in realtà no; lo hanno invero chiamato proprio nel bel mezzo del comunicato isolano di oggi (nonostante fossero le 11 di sera) e, da che inizialmente ha risposto bello seccato (e gli darei pure ragione, perché cazzo se fanno schifo le interruzioni telefoniche!), nel giro di pochi secondi ha chiuso in fretta e furia il comunicato, e letteralmente si è girato e se n'è andato via ancora col telefono in faccia! Che modi...
+
+![](https://stuff.octt.eu.org/content/images/20250926082707-2025092523361600-02CB906EA538A35643C1E1484C4B947D.jpg)
+
+Recandomi nella sua tenda (dove volevo solo interagire col maledetto Punto Nook), però, è arrivata la vera batosta: questo maledetto capitalista ha promesso a questi animali che avrebbero avuto già una casa per bene, costruita e ammobiliata, al loro arrivo sull'isola, ma... lui da solo dice di non potercela fare ora, e visto che su è "lasciato un po' prendere la mano", ora toccherà di nuovo a me sgobbare per chissà che altro tipo di "ricompensa" puzzolente. Ma è una vacanza per cui ho pagato questa, o è un campo di lavoro anti-umanista? E sento come se le cose in realtà non faranno altro che peggiorare...
+
+Avendolo visto nella tenda, tra l'altro, faccio anche notare un dettaglio che non so davvero se sia interessante o solo una delle mie solite paturnie, ma è certamente degno di almeno una minima nota... Levati da mezzo i procioni piccoli dal suo antro (per quanto ancora temporaneo), Nook ha ricavato dello spazio per un cavolo di minigolf, e pure la borsa gigante con tutte le mazze appoggiata lì al muro... sono esterrefatta, non ce la posso fare. (Provare ad interagire con il giochino a terra non fa niente, peccato!)
+
+![](https://stuff.octt.eu.org/content/images/20250926083217-2025092523400500-02CB906EA538A35643C1E1484C4B947D.jpg)
+
+Vabbé, dai, almeno per questo articolo le cose gravi finiscono qui, e mi resta solo da fare il punto delle scemenze... che sono quelle che sono. Del tipo, di uno schema fai-da-te per un _comò di legno_, arrivato in bottiglia ieri sera da un certo Gran Maestro Gianni (la pazzia imperversa...), o che ieri sera ho comprato dal Punto Nook la "Guida all'uso delle tasche", altro foglietto illustrativo inutilmente costoso (5000 miglia!!!) che però è stato utile ad aggiungere magicamente 10 slot aggiuntivi al mio inventario... e una _gonna di tuta_ che ho comprato sempre al Punto Nook, che però sembrava meno noiosa. (Ecco, escono sempre seccature a comprare i vestiti online, persino su Animal Crossing.) Ah, e ho già accumulato tanti di quegli alberi di soldi che poi, chi vivrà, li vedrà...
+
+![](https://stuff.octt.eu.org/content/images/20250926082601-2025092401065800-02CB906EA538A35643C1E1484C4B947D.jpg)
+
+Poca roba nuova, invece, per il museo... dovranno pregarmi perché io lavori decentemente perché espanda in tempi ragionevoli. Ho donato una *carpa* a Blatero, che subito ha iniziato a parlarmi dei suoi... denti, che dice sono talmente tosti da poter masticare le dita, porca miseria maledetta. (Lui è contento di non averne, a questo proposito, ma non credo che il pesce pericoloso non potrebbe mangiargli comunque gli arti che lui ha, di cui non so il nome esattamente.)
+
+Come fossili, ieri ho dato via un _torace brachiosauro_, di un essere di cui aveva già parlato, una _coda anchilosauro_, stessa cosa, e un'_orma dinosauro_, che verrebbe dal fondo del mare o da un terreno fangoso... e che Blatero compara a "profili nei social media" dei dinosauri (mamma mia). Visto che erano pochi a 'sto giro, ne ho approfittato per pescarne uno dalla pila che mi si è accumulata negli scorsi giorni, e questo è stato un _cranio brontoterio_, apparentemente di un dinosauro simile a un rinoceronte ma col corno biforcuto, che Blatero dice probabilmente estinto perché le piante che mangiava sparirono... triste. Peccato che poi in quest'ultima sera ho dissotterrato altri fossili, solo per metterli ancora in un'altra pila che diventerà arretrata, ops!
+
+Infine, le miglia... e sembra che ogni volta siano sempre di meno, ma evidentemente avrò camminato particolarmente poco ultimamente... me ne farò una ragione:
+
++ 300 miglia x3 per i login giornalieri;
++ 150 miglia x2 per "Fai esaminare dei fossili" (3);
++ altre miglia Nook+: (100 + 100) x2;
++ 500 miglia e titolo "Bottino prematuro" per "Magnate della frutta", per aver venduto ancora più pezzi di frutta (100).
