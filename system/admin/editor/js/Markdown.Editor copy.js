@@ -1564,8 +1564,7 @@
             buttons.minimize = makeButton("wmd-minimize-button", getString("minimize"), "fa-solid fa-minimize", toggleFullscreen);
             buttons.minimize.hidden = true;
 
-            buttons.status = makeButton("wmd-status-button", getString("status"), "fa-solid fa-circle-info", toggleStatusbar);
-            buttons.settings = makeButton("wmd-status-button", getString("settings"), "fa-solid fa-gear", toggleStatusbar);
+            buttons.status = makeButton("wmd-status-button", getString("status"), "fa-solid fa-info", toggleStatusbar);
 
             //makeSpacer(3);
             buttons.undo = makeButton("wmd-undo-button", getString("undo"), "fa-solid fa-rotate-left", null);

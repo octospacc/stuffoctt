@@ -1,0 +1,17 @@
+<!--t Frieren - Capitolo 9 t-->
+<!--d Con quest&#039;ennesimo breve capitolo, per qualche attimo si finisce a confrontarsi con un altro grande dilemma della vita di tutti i giorni di... d-->
+<!--tag Random tag-->
+
+Con quest'ennesimo breve capitolo, per qualche attimo si finisce a confrontarsi con un altro grande dilemma della vita di tutti i giorni di tutti noi umani e non solo: i fantasmi. Ok, no, a dire il vero anche in quel mondo sono roba rara... ma, quando appaiono, possono far male. Nel continuare il loro viaggio verso Aureole, Frieren e Fern devono attraversare un valico boscoso infestato da spiriti che, per attirare vittime, così da farle sparire, pare per mangiarle (gnam?) — ma in generale commettere non è chiaro che tipo di azione ingiusta — impersonano fantasmi di morti cari alla persona presa di mira.
+
+A parte il fatto che credo sia preoccupante che questi esseri sappiano chi impersonare in primo luogo per ogni caso, perché ciò implica che riescano o a leggere le menti delle vittime — che è chiaramente una grossa violazione della privacy, e più in generale dei diritti umani, non buono — o che in qualche modo riescano ad ottenere queste informazioni essendo in contatto con i veri morti — che sarà meno peggio, ma resta comunque una cosa brutta — ciò che li rende efficaci contro molte persone è la loro estrema accuratezza; sono perfette imitazioni, indistinguibili dagli originali per chi non sa in anticipo cosa sta vedendo.
+
+Il mostro in questione si chiama Einsam... viene detto un po' così, chissà se per sfizio o se perché tornerà utile in futuro. Comunque, nonostante la preparazione delle maghe, riesce a cogliere di sorpresa entrambe: Frieren si aspettava di vedere la sua vecchia maestra (Flamme immagino, ma se le cose non mi sono raccontate esplicitamente io non capisco...), e invece le appare Himmel; Fern, invece, vede Heiter... cosa che la fa particolarmente titubare, perché in realtà lei si aspettava di vedere questo fantasma prima o poi, come promesso da Heiter stesso, ma ovviamente le imitazioni non c'entrano in quel discorso.
+
+![](https://stuff.octt.eu.org/content/images/20251011002145-IMG_20251010_004031-01.jpeg)
+
+La cosiddetta "freddezza" di Frieren in questo caso gioca a suo enorme vantaggio, perché non si lascia affatto abbindolare dallo spirito... gli lascia giusto dire la sua cosa, e poi lo fa fuori con un colpo, e la faccia più neutra di sempre! Tra l'altro, è lo stesso fare con cui poco prima racconta di un'altra volta, in cui ha fatto fuori il fantasma (spero anche in tal caso finto, ma mi sale qualche dubbio, una cosa mia...) della sua maestra. Sembra una cosa crudele e ingiustamente violenta, si, ma oggettivamente è correttissima, sapendo con certezza di star vedendo qualcosa di falso, e per giunta di così moralmente predatorio come detto sopra. Anche questo stesso atteggiamento coglie di sorpresa Fern, però.
+
+![](https://stuff.octt.eu.org/content/images/20251011002122-IMG_20251010_004031-01.jpeg)
+
+Sorvolando sul fatto che, se un mio nonno o nonnino avesse promesso a me bambina di venirmi a trovare dopo la morte come fantasma, io sarei stata abbastanza spaventata, ma ai tempi Fern non sembra aver avuto questa reazione... passato l'impatto iniziale di pochi attimi, entrambe le ragazze magiche gli scagliano un comune attacco di forza magica densa, e in altri pochi secondi il problema è risolto. Beh, dai, anche quest'altra storiella scomoda nata strada facendo si è chiusa subito alla fine; ci sta.

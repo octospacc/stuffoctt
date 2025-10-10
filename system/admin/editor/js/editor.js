@@ -70,4 +70,19 @@
     //=====end image uploader=====
     editor.run();
 
+    // ensure default category is good for all posts, not the first in alphabetical order
+    pCategory.querySelector('option[value=uncategorized]').selected = true;
+
+    // ensure a default tag is present of Random, to reduce friction
+    pTag.value = "Random";
+
+    const postSettings = document.getElementById('post-settings');
+    postSettings.classList.remove('row');
+    postSettings.classList.add('col-sm-4');
+    postSettings.style.float = 'right';
+    Array.from(postSettings.children).forEach(el => el.classList.remove('col-sm-6'));
+    [document.getElementById('editor-col'), document.getElementById('preview-col')].forEach(el => {
+        el.style.flex = '0 0 100%';
+        el.style.maxWidth = '100%';    
+    });
 })();
