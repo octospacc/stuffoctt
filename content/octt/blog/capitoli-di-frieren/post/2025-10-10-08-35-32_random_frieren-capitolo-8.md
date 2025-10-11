@@ -1,5 +1,5 @@
 <!--t Frieren - Capitolo 8 t-->
-<!--d Questo capitolo 8 sembra avviare il nuovo volume in un modo che prevedo più incentrato su piccole riflessioni, con più capitoli in totale d-->
+<!--d Questo capitolo 8 sembra avviare il nuovo volume in un modo che prevedo più incentrato su piccole riflessioni, con più capitoli in totale... d-->
 <!--tag Random tag-->
 
 Questo capitolo 8 sembra avviare il nuovo volume in un modo che prevedo più incentrato su piccole riflessioni, con più capitoli in totale complessivamente più corti. Almeno, per ora esattamente questo succede: la storia riprende al preciso istante dov'era stata fermata prima ma, con Frieren che si addormenta (e figuriamoci) sul carro con Fern ed Eisen, spuntano magicamente fuori introspezioni inedite (ma non troppo).

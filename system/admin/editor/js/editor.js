@@ -70,11 +70,15 @@
     //=====end image uploader=====
     editor.run();
 
-    // ensure default category is good for all posts, not the first in alphabetical order
-    pCategory.querySelector('option[value=uncategorized]').selected = true;
+    // ensure default category is good for all new posts, not the first in alphabetical order
+    let noCategory = true;
+    for (const el of pCategory.children) {
+        if (el.getAttribute('selected')) noCategory = false;
+    }
+    if (noCategory) pCategory.querySelector('option[value=uncategorized]').selected = true;
 
     // ensure a default tag is present of Random, to reduce friction
-    pTag.value = "Random";
+    if (!pTag.value) pTag.value = "Random";
 
     const postSettings = document.getElementById('post-settings');
     postSettings.classList.remove('row');

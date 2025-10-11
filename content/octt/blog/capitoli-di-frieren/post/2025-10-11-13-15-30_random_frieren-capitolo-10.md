@@ -1,0 +1,21 @@
+<!--t Frieren - Capitolo 10 t-->
+<!--d Sempre guidata dalla sua irrefrenabile voglia di collezionare magie, Frieren in questo capitolo adocchia un grimorio sfortunatamente piazzato nel... d-->
+<!--tag Random tag-->
+
+Sempre guidata dalla sua irrefrenabile voglia di collezionare magie, Frieren in questo capitolo adocchia un grimorio sfortunatamente piazzato nel nido di un drago, di tutti i posti! Immediatamente, lo brama, perché a suo dire — anche se mi sfugge in base a cosa... forse l'ha riconosciuto dalla copertina? anche se da lontano... boh — conterrebbe una magia per vedere attraverso i vestiti... che lei dice utile per scoprire se qualcuno porta armi di nascosto, ma io fatico a credere che sia proprio questa la scusa per volerla...
+
+![](https://stuff.octt.eu.org/content/images/20251012003641-IMG_20251011_235814-01.jpeg)
+
+Anche stavolta scopro qualcosa di nuovo, comunque: i draghi apparentemente fanno uso di oggetti magici vari come materiali per costruire i loro nidi... forse piace anche a loro la magia? Fatto sta che all'atto pratico la loro vita sarebbe tale e quale pure se facessero a meno di prendere anche libri... o, forse, sarebbe più sicura, perché con queste condizioni Frieren si è messa in testa di farlo fuori, questo drago malcapitato, pur di prendere quel libro senza il quale ora non si può più pensare ad altro.
+
+Tra l'altro, Frieren cerca di giustificare l'abbattimento dicendo che l'animale è troppo pericoloso, e avrà ucciso diversi avventurieri capitatigli a tiro, quindi è meglio così... che mi sembra una logica pericolosamente simile a quella con cui nel nostro mondo si eliminano orsi o altri animali pericolosi nel momento in cui qualche scemo va nel suo habitat provando a farcisi un selfie, e loro da animali quali sono rispondono sbranandoli... Vabbé, è colpa del drago se negli anni ha mangiato chi è andato a dargli fastidio, mi pare giusto.
+
+Da brava scemotta, Frieren fa provare Fern ad attaccarlo, con la sua magia di lungo raggio, ma il drago non si fa manco un graffio... però, giustamente, si incazza, e per poco non erano loro a lasciarci le penne; hanno dovuto correre chissà quanto per seminarlo, e Fern ne è rimasta, ancora giustamente, terrorizzata. E di schiodare Frieren dal suo obiettivo non c'è veramente modo, ma quantomeno capisce di non potercela fare così, e la nuova priorità diventa trovare un assistente per il compito...
+
+Sembrava esserci la persona perfetta: un guerriero di nome Stark, vecchio allievo di Eisen, che avrebbe salvato il villaggio vicino proprio da quel drago anni prima, durante un suo attacco... peccato che, tra una parola e l'altra per convincerlo in questa missione, esce fuori che è "un codardo buono a nulla" che non ha mai fatto niente; il drago semplicemente cambiò idea su cosa fare quel pomeriggio, a vedere lui fisso impalato davanti senza la minima idea di cosa fare o il coraggio necessario per andare avanti... ma i cittadini gli diedero tutto il merito, e lui è andato avanti con questa fama costruita sul nulla!
+
+![](https://stuff.octt.eu.org/content/images/20251012003616-IMG_20251012_000523-01.jpeg)
+
+Frieren decide di dargli solo una possibilità, perché ora è lei a non volerlo in mezzo, dopo aver scoperto che è un bugiardo... quindi la notte si mette e, con la sua ascia, scava la montagna in grossi colpi esplosivi, come stava facendo in realtà da qualche tempo, a giudicare dalla frattura lì presente... e fa *spacc* belli grossi... anche se, personalmente, non ho capito a cosa dovrebbe portare. Evidentemente non è una persona inutile, ma... se le cose stanno così, la sua vocazione sarebbe più da minatore che da combattente, ecco.
+
+Una piccola nota va scritta in favore di Frieren, però, che, per quante idee discutibili avrà, delle cose giuste le dice: com'è possibile che Fern, rispetto a quando era più piccola, sia diventata così ruvida ed aspra?! Parole di sdegno così come ne ha avute per ..., non ne ha mai avute per niente e nessuno... ma sarà stata mica Frieren stessa a contagiarle l'_elfismo_???
