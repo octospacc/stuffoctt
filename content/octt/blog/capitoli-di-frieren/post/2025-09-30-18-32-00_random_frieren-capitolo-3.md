@@ -1,4 +1,4 @@
-<!--t Frieren - Capitolo 3 t-->
+<!--t Frieren - Capitolo 3, i fiori perduti t-->
 <!--d A quanto pare, da quando Frieren e Fern sono partite, per campare da un lato e raccogliere magie improbabili dall&#039;altro hanno fatto svariati... d-->
 <!--tag Random tag-->
 

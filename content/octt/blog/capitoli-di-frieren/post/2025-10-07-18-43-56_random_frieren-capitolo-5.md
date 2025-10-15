@@ -1,4 +1,4 @@
-<!--t Frieren - Capitolo 5 t-->
+<!--t Frieren - Capitolo 5: la prova della maghetta t-->
 <!--d Rimessesi in viaggio, la maga somma Frieren ha in mente una prossima tappa che, per la prima volta in queste pagine, alza per qualche attimo la posta... d-->
 <!--tag Random tag-->
 

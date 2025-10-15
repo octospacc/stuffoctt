@@ -8,7 +8,7 @@ A parte il fatto che credo sia preoccupante che questi esseri sappiano chi imper
 
 Il mostro in questione si chiama Einsam... viene detto un po' così, chissà se per sfizio o se perché tornerà utile in futuro. Comunque, nonostante la preparazione delle maghe, riesce a cogliere di sorpresa entrambe: Frieren si aspettava di vedere la sua vecchia maestra (Flamme immagino, ma se le cose non mi sono raccontate esplicitamente io non capisco...), e invece le appare Himmel; Fern, invece, vede Heiter... cosa che la fa particolarmente titubare, perché in realtà lei si aspettava di vedere questo fantasma prima o poi, come promesso da Heiter stesso, ma ovviamente le imitazioni non c'entrano in quel discorso.
 
-![](https://stuff.octt.eu.org/content/images/20251011002145-IMG_20251010_004031-01.jpeg)
+![](https://stuff.octt.eu.org/content/images/20251015105825-IMG_20251010_004216-01.jpeg)
 
 La cosiddetta "freddezza" di Frieren in questo caso gioca a suo enorme vantaggio, perché non si lascia affatto abbindolare dallo spirito... gli lascia giusto dire la sua cosa, e poi lo fa fuori con un colpo, e la faccia più neutra di sempre! Tra l'altro, è lo stesso fare con cui poco prima racconta di un'altra volta, in cui ha fatto fuori il fantasma (spero anche in tal caso finto, ma mi sale qualche dubbio, una cosa mia...) della sua maestra. Sembra una cosa crudele e ingiustamente violenta, si, ma oggettivamente è correttissima, sapendo con certezza di star vedendo qualcosa di falso, e per giunta di così moralmente predatorio come detto sopra. Anche questo stesso atteggiamento coglie di sorpresa Fern, però.
 

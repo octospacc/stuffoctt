@@ -1,4 +1,4 @@
-<!--t Frieren - Capitolo 4 t-->
+<!--t Frieren - Capitolo 4 con l&#039;elfa che stupisce t-->
 <!--d Frieren e Fern sono in città, preparandosi a prendere provviste per il loro prossimo viaggio... o, almeno, questo è ciò che la prima dice di fare... d-->
 <!--tag Random tag-->
 
