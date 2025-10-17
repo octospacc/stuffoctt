@@ -1,0 +1,15 @@
+<!--t Frieren - Capitolo 17 t-->
+<!--d Per cercare di evitare il peggio, questa volta i tre soggettoni dell&#039;avventura si sono effettivamente preparati decentemente... d-->
+<!--tag Random tag-->
+
+Per cercare di evitare il peggio, questa volta i tre soggettoni dell'avventura si sono un minimo preparati decentemente... beh, la posta in gioco in effetti è altina. Fern e Stark devono entrare di nascosto nel palazzo del conte, perché ovviamente l'idea di uccidere gli ambasciatori non suona benissimo, ma quello che non si aspettano è di trovare un assoluto deserto, e nessuna guardia, una volta dentro. (In effetti, però, Granat è proprio scemo se si è fatto uccidere in un solo colpo tutte le guardie, ma credo che ciò sia il caso, altrimenti dovevano esserci un po' di cadaveri sparsi in giro, e non solo nella stanza del delitto.)
+
+![](https://stuff.octt.eu.org/content/images/20251017192508-IMG_20251017_191325-01.jpeg)
+
+Come da me previsto, Lügner e la piccoletta Linie volevano in realtà semplicemente torturare Granat... probabilmente perché lui intanto non li aiuta con la rimozione della barriera magica che protegge la città; ma, ovviamente, ciò non è che li giustifica. Ora, quindi, Stark trova il conte in pessime condizioni, ma non è particolarmente stupito di ciò; purtroppo, non riesce a liberarlo dalla sedia dove è stato legato (avranno usato qualche corda maledetta con la loro magia, mi sa), e passa abbastanza tempo che quelli lì tornano nella stanza, dopo che si erano allontanati.
+
+Quando Lügner afferra le intenzioni di Stark, e lo attacca, in realtà lui riesce a resistere inizialmente bene... quindi si riconferma più bravo di quello che pare, direi. Proprio nel momento in cui si trova alle strette, per sua fortuna, Fern riesce ad entrare di sorpresa come evidentemente programmato — per giunta, non so come, ma non facendosi percepire da Linie, che come abilità particolare ha questa cosa di riuscire a sentire le presenze magiche — e questo fa incazzare alquanto i demoni... Nel voler salvare il conte, però, la maga e l'eroe si devono ritirare, anziché continuare lo scontro, e i due demoni ne approfittano per pianificare.
+
+![](https://stuff.octt.eu.org/content/images/20251017212238-IMG_20251017_191424-01.jpeg)
+
+Ed è così che, quindi, finisce anche un altro volume... e che dire ora? La suspense rimane alta, e dovrò vedere come il tutto andrà a finire; anche perché, intanto, Frieren ha deciso di andare a trovare quella maledetta di *Alba la ghigliottina* (...nome che non so di preciso cosa voglia dire), che di contro si riferisce alla somma come *Frieren la funesta*... quanta inimicizia! A quanto pare, lei è molto odiata dai demoni in generale per questa sua evidente genialità intrinseca che ha, attraverso cui ha nei secoli contribuito enormemente al fianco degli umani per contrastare le magie demoniache, senza troppe difficoltà da parte sua; un fatto che tutto sommato già si percepiva, ma che ora è certo.

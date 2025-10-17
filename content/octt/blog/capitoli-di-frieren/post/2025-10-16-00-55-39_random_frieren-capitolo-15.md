@@ -1,0 +1,21 @@
+<!--t Frieren - Capitolo 15 t-->
+<!--d Ciò che in questo nuovo capitolo immediatamente si scopre è che, mentre i demoni servi di Alba hanno ovviamente le loro intenzioni nascoste... d-->
+<!--tag Random tag-->
+
+Ciò che in questo nuovo capitolo immediatamente si scopre è che, mentre i demoni servi di Alba hanno ovviamente le loro intenzioni nascoste, e quella della pace è solo una scusa... il conte Granat non ha davvero intenzione di fare la pace e, portati i demoni su nel suo palazzo, sta per farli uccidere. Ciò che purtroppo non sorprende minimamente, però, è il fatto che anche in questo caso i demoni riescono a ribaltare la situazione completamente a proprio favore usando qualche parola ben piazzata per stimolare pietà umana, nonché tuttavia inventata e bugiarda... e il conte, purtroppo, se la beve.
+
+Questo fatto, ribadisco, non mi piace per niente... ma, se proprio bisogna parlare di aspetti problematici, allora, più che a come i demoni abbiano capacità di linguaggio umane, mi preoccuperei del fatto che usino brutali problemi magici, [come in realtà già avevamo imparato dal capitolo 5](https://stuff.octt.eu.org/2025/10/frieren-capitolo-5). Del trio, il demone piccolino è alquanto incazzato, e decide di sua sponte di avventurarsi nelle prigioni della città con l'intento di uccidere Frieren, perché la vede (logicamente, visto che è l'unica lì che non si fa abbindolare) come un ostacolo per il piano che da lì a breve vorrebbero eseguire.
+
+![](https://stuff.octt.eu.org/content/images/20251017210957-IMG_20251017_002725-01.jpeg)
+
+Spaventosamente senza alcuna difficoltà, uccide la guardia che nei sotterranei gli blocca il passaggio e, in un modo che non mi è affatto chiaro, apre la cella di Frieren — non sembra forzare niente, semplicemente spinge la porta... avrà banalmente rubato la chiave alla guardia morta, voglio sperare? Purtroppo per lui, ma non per noi, a questo punto, sottovaluta pesantemente l'elfa, che non solo con grandissima classe non si lascia far fuori, ma, col suo sangue freddissimo, umilia il demone in maniera squisita, mentre lui cerca di farsi bello... per poi eliminarlo con ancora meno difficoltà! E... basta, a dire il vero: questo capitolo è tutto qui.
+
+![](https://stuff.octt.eu.org/content/images/20251017211136-IMG_20251017_002840-01.jpeg)
+
+Questo momento finale, però, è veramente interessante sotto svariati punti di vista. Innanzitutto, io temevo che Frieren non potesse in alcuna misura attaccare o fare cose simpatiche, ma al più difendersi, senza il suo bastone... ma, a pensarci meglio (e qui la colpa è mia per non averlo fatto da subito, ma spero che mi perdonerete se mostro in continuazione problemi di skill), il bastone in teoria altro non è che un canalizzatore di energia magica; serve per fare colpi più stabili e precisi, insomma, ma non è essenziale. Lei riesce infatti, mentre Draht è girato, prima a staccargli via una mano (e ben gli sta!), anche se non è chiaro come... per poi, dopo averlo messo a terra, ucciderlo canalizzando energia dalle proprie mani al suo collo, facendogli subire una specie di esplosione. (Boom!)
+
+![](https://stuff.octt.eu.org/content/images/20251017211223-IMG_20251017_002900-01.jpeg)
+
+![](https://stuff.octt.eu.org/content/images/20251017211240-IMG_20251017_002913-01.jpeg)
+
+Da qui, ovviamente, mi spunta anche un'altra osservazione... la somma Frieren è davvero tanto somma, e non per modo di dire inutilmente formale. Per quanto sul piano della regolazione delle emozioni lei sia forse non più forte del demone, ciò che sembra avere in più dalla sua parte anche questa volta è l'esperienza in battaglia; almeno, vorrà dire qualcosa se invece ne percepisce la mancanza nei demoni "moderni". Lei sa di dover mantenere sempre alta la guardia, di dover sfruttare a suo vantaggio ogni istante di distrazione del nemico, e anche di non mostrarsi fragile; i suoi avversari, invece, finora, sono tutti davvero indegni. (E, i demoni in particolare, prima fanno gli spavaldi, ma poi, quando si trovano alle strette, vogliono la pietà...)
