@@ -1,7 +1,8 @@
 /backup/*
 /cache/*
 # /content/*
-/content/data/*
+# /content/data/*
+/content/data/search.json
 /content/*/blog/*/draft/*
 /content/*/blog/*/*/scheduled/*
 /content/static/draft/*
