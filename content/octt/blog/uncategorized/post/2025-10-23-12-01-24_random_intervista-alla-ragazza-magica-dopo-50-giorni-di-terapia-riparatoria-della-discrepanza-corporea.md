@@ -8,6 +8,8 @@ Un noto pattern di magia e maledizione nel mondo contemporaneo, almeno secondo l
 
 Con oggi, intrigantemente, siamo riusciti a mettere le mani (con il dovuto consenso eh, sia chiaro!) su una ragazza magica che si trova esattamente in questa situazione da stereotipo, e per cui sono al momento passati già 50 giorni (e più, mannaggia ai ritardi...) da quando ha potuto finalmente iniziare la sua "***terapia riparatoria della discrepanza corporea***", come la procedura è conosciuta nel gergo. Volevamo capire un po' meglio, tramite l'esperienza diretta di una persona esistente, quali siano i primi cambiamenti che questo tipo di processo medico comporta su chi soffre di questa maledizione, ad un punto della storia in cui la cosa ha avuto un minimo di tempo di assestarsi, ma ancora non ci sono svolte troppo epocali.
 
+## L'intervista
+
 <u>*Intervistante*</u>: Ciao A, grazie mille per aver accettato di raccontarti in questo tuo processo, o side-quest, che dir si voglia! La mia prima curiosità è in realtà proprio questa: è stato difficile per te accettare di partecipare a questa intervista?
 
 **A**: Ciao e grazie a voi... A dire il vero, un po' si, è stato difficilino, nella misura in cui credo possa essere alquanto difficile per chiunque nella mia condizione non solo aprirsi su una questione come questa, che è di per sé abbastanza intima, ma poi anche l'andare nei dettagli più individuali e specifici. Non a caso, questo articolo sarebbe potuto uscire 20 giorni fa, ma, prendendo la palla al balzo delle mie rimuginazioni a proposito come scusa per avere anche una visione più d'insieme grazie all'attesa, ecco che ci troviamo qui solo ora.

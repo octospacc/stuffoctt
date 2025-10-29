@@ -6,7 +6,7 @@
 <p><label>Minified <textarea name="minified"></textarea></label></p>
 <p><label>Beautified <textarea name="beautified"></textarea></label></p>
 <p><label>Indentation: <input name="indentation" type="text" value="  " /></label></p>
-<p><button name="reset">Reset</button></p>
+<p><button name="reset" type="button">Reset</button></p>
 
 <script>
 (function(parentEl){

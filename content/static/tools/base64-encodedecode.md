@@ -6,7 +6,7 @@
 <p><label>Plaintext <textarea name="plain"></textarea></label></p>
 <p><label>Encoded <textarea name="coded"></textarea></label></p>
 <p><label>Steps: <input name="steps" type="number" value="1" min="1" /></label></p>
-<p><button name="reset">Reset</button></p>
+<p><button name="reset" type="button">Reset</button></p>
 
 <script>
 (function(parentEl){

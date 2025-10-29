@@ -7,7 +7,7 @@ Perform URL encoding or decoding on strings with various options.
 <p><label>Plain <textarea name="plain"></textarea></label></p>
 <p><label>URL-encoded <textarea name="coded"></textarea></label></p>
 <p><label>Steps: <input name="steps" type="number" value="1" min="1" /></label></p>
-<p><button name="reset">Reset</button></p>
+<p><button name="reset" type="button">Reset</button></p>
 
 <script>
 (function(parentEl){

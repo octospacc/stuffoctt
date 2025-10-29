@@ -108,6 +108,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform label { font-size: 14px; }
 .themeform input::-moz-focus-inner, 
 .themeform button::-moz-focus-inner { border: 0; padding: 0; }
+.themeform input[type="date"],
 .themeform input[type="search"],
 .themeform input[type="text"],
 .themeform input[type="password"],
@@ -127,6 +128,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform input[type="checkbox"] { -moz-appearance: checkbox; -webkit-appearance: checkbox; }
 .themeform input[type="radio"] { -moz-appearance: radio; -webkit-appearance: radio; }
 .themeform label { font-weight: 600; color: #333; }
+.themeform input[type="date"],
 .themeform input[type="search"],
 .themeform input[type="text"], 
 .themeform input[type="password"], 
@@ -136,6 +138,7 @@ input, textarea, button, select, label { font-family: inherit; }
 .themeform input[type="number"],
 .themeform select,
 .themeform textarea { background: #fff; border: 2px solid #e5e5e5; color: #777; display: block; max-width: 100%; outline: none; padding: 7px 8px; }
+.themeform input[type="date"]:focus,
 .themeform input[type="search"]:focus,
 .themeform input[type="text"]:focus, 
 .themeform input[type="password"]:focus, 
@@ -1583,7 +1586,7 @@ text-decoration: none;
 .pre { white-space: pre; }
 
 button { padding: 0.5em;  }
-input, textarea { width: 100%; }
+input, select, textarea { width: 100%; }
 textarea { height: 5em; }
 
 article .entry-content { word-wrap: break-word; }
@@ -1593,4 +1596,9 @@ a#page-qr-code > img {
 	float: right;
 	margin-right: 2em;
 	height: 96pt;
+}
+
+.main .content article .entry-content iframe:not([width][height]) {
+	width: 100%;
+	height: 80vh;
 }
