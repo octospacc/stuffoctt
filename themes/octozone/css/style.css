@@ -1599,6 +1599,6 @@ a#page-qr-code > img {
 }
 
 .main .content article .entry-content iframe:not([width][height]) {
-	width: 100%;
-	height: 80vh;
+	width: 100% !important;
+	height: 80vh !important;
 }
