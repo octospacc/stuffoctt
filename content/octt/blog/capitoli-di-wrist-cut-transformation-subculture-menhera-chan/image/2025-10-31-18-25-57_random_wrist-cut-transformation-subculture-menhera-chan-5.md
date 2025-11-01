@@ -1,0 +1,22 @@
+<!--t Wrist-Cut Transformation Subculture ✡ Menhera-chan - Capitolo 5 t-->
+<!--d In città è appena apparsa una nuova ragazza che si fa chiamare Wrist Cut Warrior, ma che ha un particolare insolito... d-->
+<!--tag Random tag-->
+<!--image https://lh3.googleusercontent.com/u/0/d/1UpQJ-XZTF113gh9Q3gvWQBJaBe5kKVSZ image-->
+
+In città è appena apparsa una nuova ragazza che si fa chiamare anch'ella *Wrist Cut Warrior*, ma che ha un particolare insolito... A quanto pare, invece di concentrarsi sul combattere gli spiriti maligni, si pone più come paladina della giustizia terrena, andando contro criminali perfettamente umani. Sicuramente ciò ha un lato onorevole, e forse l'impatto sulla società dell'esistenza di più ragazze in cosplay in giro con questo atteggiamento è complessivamente positivo... ma, a Momoka e Sumire la situazione puzza.
+
+Questa qui infatti, nota come Yumekawa Purple, viene in realtà scoperta essere solo una falsa dalle due vere guerriere, che decidono di investigare la questione dopo le ultime cronache. Ironia della sorte, infatti, Yumekawa-chan riceve un sacco di notorietà tra il pubblico per le sue ultime imprese — che, per carità, hanno la loro importanza, come aver fermato e legato un tizio brutto che aveva intenzioni a dir poco sospette verso una donna per strada — mentre Menhera-chan e Sabukaru-chan, che davvero se la vedono tosta, non le conosce nessuno se non i nemici... ma purtroppo è sempre così che va il mondo (e la mia esperienza in questo è estrema).
+
+Nella sua ultima anti-bravata, Yumekawa Purple va a sequestrare della droga comprata per strada da un tizio decisamente poco educato... che caccia fuori un coltello, ma tanto non gli è servito a niente. Tuttavia, la tizia che si trovava lì, che si è presa carico da chissà che spacciatore di consegnare la sostanza all'acquirente, che Yumekawa-chan vuole in qualche modo ugualmente punire, si rivela non ugualmente facile da prendere... perché per qualche motivo, se inizialmente scappa via, poi si gira e dal suo corpo esce uno spirito maligno. (È chiaramente stata infettata... ma come, da un secondo dall'altro senza spiriti in vista?)
+
+Qui la signorina, che fino ad un istante prima era tranquilla nella sua routine, finisce a terra praticamente paralizzata; ed è solo per sua fortuna che due vere ragazze magiche erano casualmente nei paraggi in quel momento, pronte ad intervenire. Però, alla loro vista, lei si scorda completamente del pericolo in corso, perché a quanto sembra è una loro ammiratrice... che ok, questo spiega sicuramente il suo imbarcarsi in questa impresa di copiarle, ma qui oltre ai problemi di skill sembrano esserci grandi problemi di buon senso. (A parte il fatto che lei ha sì delle bende, ma non è mai stata vista tagliarsi, quindi potrebbe essere una schifosissima poser...)
+
+Per colpa della falsa, che pensa ai convenevoli, Menhera Pink e Sabukaru Blue vengono intanto colpite da delle puntone velenose, che il nemico caccia da non voglio sapere dove... e cadono a terra. La sola speranza esistente ora è quindi, sorprendentemente, espressa dall'arrivo del coniglietto di Momoka, che, scoprendo che Yumekawa Purple non è una vera *Wrist Cut Warrior*... caccia fuori dal suo orecchio, che a quanto pare si smonta tranquillamente, una *pillola di trasformazione*. Con questa, lei può diventare una vera guerriera magica per appena 20 minuti (...un limite di tempo abbastanza schifoso), e — con il taglierino che penso a lei appaia in quel momento — riesce a staccare al primo colpo un intero braccio al mostro umanoide, il cui sangue dal sapore schifoso fa da antidoto per il veleno di prima.
+
+La rogna a questo punto non è finita, ma tutto sommato in realtà si. Le 3 ragazze, in questo momento effettivamente tutte magiche, riescono insieme a fare un *Sabukaru Menhera Dream Cannon*, che esplode ancora meglio del vecchio attacco combinato delle prime due, ed ecco qua. Intanto, Yumekawa-chan si prende da un lato la delusione pazzesca di aver acquisito solo temporaneamente i poteri magici, e dall'altro una ramanzina da parte delle maghette vere, per essersi messa in pericolo con tutta questa smania del copiarle... e per essere particolarmente azzeccosa con loro, poverina.
+
+---
+
+[Il capitolo 5 di *Wrist-Cut Transformation Subculture ✡ Menhera-chan*](https://gamingshitposting.github.io/TomoStash/en/menhera-chan/#Chapter%205.cbz) è disponibile in inglese su TomoStash:
+
+<iframe src="https://gamingshitposting.github.io/TomoStash/reader/#/en/menhera-chan#Chapter 5.cbz" allowfullscreen></iframe>

@@ -1,7 +1,6 @@
 <!--t Wrist-Cut Transformation Subculture ✡ Menhera-chan - Capitolo 2 t-->
 <!--d Menhera-chan si trova a combattere contro un mostro sputafuoco a forma di nuvola incazzata che, a caso, ha già fatto 2000 vittime da quando... d-->
 <!--tag Random tag-->
-
 <!--image https://lh3.googleusercontent.com/u/0/d/1gZKNCU7yOnTmu2_4HLvw1Qkap1iTCzQX image-->
 
 Menhera-chan si trova a combattere contro un mostro sputafuoco a forma di nuvola incazzata che, a caso, ha già fatto 2000 vittime da quando è apparso... cose che capitano tutti i giorni, insomma. La ragazza sembra in realtà molto sicura e convinta di poterlo togliere di mezzo facilmente — e pure subito, che ha da guardare la TV a casa — ma stavolta poco ci mancava che ci lasciasse le penne... e nel frattempo si prende anche il dito medio da quel mostro, oltre alle sue risate di scherno.

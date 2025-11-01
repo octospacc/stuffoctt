@@ -1602,3 +1602,8 @@ a#page-qr-code > img {
 	width: 100% !important;
 	height: 80vh !important;
 }
+
+.main .content .notebox iframe:not([width][height]) {
+	width: 100%;
+	height: 50vh;
+}
