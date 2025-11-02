@@ -1,0 +1,20 @@
+<!--t Wrist-Cut Transformation Subculture ✡ Menhera-chan - Capitolo 7 t-->
+<!--d Sembra che qualcuno, in un luogo oscuro probabilmente piazzato in una dimensione alternativa, abbia iniziato a scocciarsi seriamente delle Wrist Cut d-->
+<!--tag Random tag-->
+<!--image https://lh3.googleusercontent.com/u/0/d/15oENeHRgENWU2fBNEAbttC5ry6tb-L5e image-->
+
+Sembra che qualcuno, in un luogo oscuro probabilmente piazzato in una dimensione alternativa, abbia iniziato a scocciarsi seriamente delle *Wrist Cut Warrior*, in quanto ostacolatrici del male alquanto problematiche... Quindi, il nuovo ordine, proveniente da quello che a tutti gli effetti sembra essere il capo di tutto questo schifo, è di farle fuori una volta e per tutte, al più presto. Beh, se con una tale situazione allora le vibe che questo manga ha in comune con quello di Sailor Moon salgono alle stelle, anche i problemi diventano meno da ridere del solito.
+
+Al servizio di questo mondo oscuro ci sono a quanto pare altre 3 ragazze, ed una di queste — con una strana pronuncia scivolosa delle S... è per caso un tratto distintivo di malvagità? — secondo il nuovo ordine, si occupa di spargere per la città dei letterali semi del male che dovrebbero germogliare in persone ignare. Tutto decisamente molto poetico, con questa che, in cima ad un tetto, fa nascere in mano questo coso da cui poi, soffiando, volano questi semi tutti in giro, che nel giusto momento germoglieranno fisicamente in dei fiori particolari... ma, allo stesso tempo, non è proprio una cosa buona.
+
+Per mera fortuna, anche al coniglio di Momoka arriva uno di questi semi dall'aria — molto particolari, con una croce sopra come quella che la ragazza preoccupante ha al collo — e la cosa gli puzza. Facendo qualche ricerca (...ma come, quando e dove?) si rende conto che la situazione è grave, e informa sia Momoka che Sumire che Himeko — la finta combattente dell'altra volta che, sempre molto casualmente, è in realtà una studentessa nella stessa scuola, si viene a scoprire in questa mattina — di tutto. Sarà allora il caso, la sera stessa, di fare della ricognizione in giro, per limitare i danni e magari scoprire qualcosa in più (anche se Momoka si scoccia).
+
+Dover setacciare l'intera città per qualcosa che nemmeno si sa bene non è facile, ma una di loro trova subito un tizio apparentemente infettato: un salaryman che sembra aver puntato una ragazzina per strada... un vecchio quanto preoccupante classico giapponese. C'è però una piccola, scocciante difficoltà: è tutta una trappola, perché la ragazza in questione non è lì a caso, ma è proprio quella che ha architettato la malefatta dei semi, che si è messa lì come finta vittima proprio per attirare le *Wrist Cut Warrior*. E ci fa fin troppo sul serio, per i miei spaventati gusti.
+
+Dopo essere stata salvata da Menhera-chan dalle grinfie di dei rovi assurdi, spuntati dal fiore che ha attecchito su quel tizio poveraccio, che l'hanno presa malamente per il collo, ringrazia Sabukaru-chan nientemeno che cacciando dal nulla una spada, sottile ma fin troppo lunga (credo sia una sciabola, precisamente), colpendola sul viso. Ed è in questo modo, tanto semplice quanto avvilente, che Angura-chan si rivela definitivamente... assieme al suo intento omicida che, però, non le impedisce di ridacchiare e arrossire contemporaneamente, e con l'enorme sicurezza di poter battere da sola tutte e 3 le ragazze. Brutta cosa! (...Se fossi più cattiva, mi sa che anche io sarei esattamente così.)
+
+---
+
+[Il capitolo 7 di *Wrist-Cut Transformation Subculture ✡ Menhera-chan*](https://gamingshitposting.github.io/TomoStash/en/menhera-chan/#Chapter%207.cbz) è disponibile in inglese su TomoStash:
+
+<iframe src="https://gamingshitposting.github.io/TomoStash/reader/#/en/menhera-chan#Chapter 7.cbz" allowfullscreen></iframe>
