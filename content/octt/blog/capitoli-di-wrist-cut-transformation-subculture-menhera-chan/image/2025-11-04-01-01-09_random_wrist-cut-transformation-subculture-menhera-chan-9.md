@@ -1,0 +1,18 @@
+<!--t Wrist-Cut Transformation Subculture ✡ Menhera-chan - Capitolo 9 t-->
+<!--d A parte scoprire che i suoi voti in educazione fisica sono scarsi, Momoka a scuola scopre di avere un ammiratore segreto... d-->
+<!--tag Random tag-->
+<!--image https://lh3.googleusercontent.com/u/0/d/1iAm0BKpMWARe-LZwL-Z2aEfJ4arRy0M6 image-->
+
+A parte scoprire che i suoi voti in educazione fisica sono scarsi — e beh, non potrebbe essere altrimenti, visto che in quell'ora se ne sta sempre per conto suo a marcire — oggi Momoka a scuola scopre di avere un ammiratore segreto!!! Il tipico ragazzo silenzioso, che però sbircia dalle finestre in altro le persone mentre fanno (...o saltano) educazione fisica. Si è apparentemente invaghito della ragazza dopo averla vista per caso combattere, una sera per strada, e beh... la sua grande figura la fa, quindi posso capire. Lei, però, non sembra interessata per niente...
+
+Il ragazzo, chiamato Ogi (e attenzione, perché il fatto che abbia un nome mi fa sospettare che dovrà riapparire in futuro, ma chissà), non ha comunque mai nemmeno parlato con Momoka o la sua amica... finché una sera, per il bene o il male della storia, è lui a finire nei guai per mano dei nemici. Uno di quei maledetti semi del male gli si deposita su un quaderno di scuola, entrando dalla finestra — e, il fatto che appaiano di nuovo 'sti semi in aria, nonostante siano apparentemente passati giorni dall'ultimo scontro, non depone affatto bene; ma non è questo il problema di ora — per poi più tardi schiudersi in un esemplare di quel bizzarro fiore tentacolare, con lui giustamente inerme.
+
+Mentre Momoka si sta a questo punto facendo i fatti suoi a casa, il suo coniglietto percepisce la presenza di uno di quei fiori (...nonostante la grande distanza, perché il fatto sembra essere successo dall'altro lato della città, wow), e dunque le due *Wrist Cut Warrior* si trasformano e si raccolgono, per andare a vedere. Non è per loro il minimo problema distruggere il fiore e salvare Ogi, ma Menhera-chan rimane sorpresa quando lui la ringrazia con una certa nonchalance, e la chiama per cognome... perché lei non immaginava che lui sapesse, e la cosa non le fa piacere; mi sfugge il perché, visto che, se arrivi ad essere cercata direttamente dall'altro mondo, c'è ormai poco e niente che puoi fare per preservare la tua privacy, ma contenta lei...
+
+L'umiliazione, per il ragazzo, è purtroppo doppia, però. Decide di approfittarne per consegnare una lettera d'amore a Menhera-chan, chiedendole di leggere... e lei la legge esattamente lì e allora; che è esattamente cosa farei anche io senza ulteriori informazioni, dall'alto della mia inettitudine sociale, ma eviterò di divagare. Se, come già detto, la ragazza non era particolarmente interessata prima, questa nuova sorpresa le fa uscire fuori un no netto: ritiene che Ogi si sia invaghito di lei solo perché l'ha vista da trasformata, e poi, avendo sentito i pettegolezzi riguardo chi lei fosse a scuola, ha deciso di provarci, mosso dallo stesso tipo di moda per cui si ammira una celebrità. Lui giura che non è così, ed è visibilmente avvilito dal rifiuto... ma questo è il mondo, e le ragazze se ne volano via. (E oh, che abbiano fretta è comprensibile, visto che comunque il male le ha disturbate dalle loro cose... ma poveraccio, quello lì.)
+
+---
+
+[Il capitolo 9 di *Wrist-Cut Transformation Subculture ✡ Menhera-chan*](https://gamingshitposting.github.io/TomoStash/en/menhera-chan/#Chapter%209.cbz) è disponibile in inglese su TomoStash:
+
+<iframe src="https://gamingshitposting.github.io/TomoStash/reader/#/en/menhera-chan#Chapter 9.cbz" allowfullscreen></iframe>
